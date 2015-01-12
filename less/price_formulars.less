@@ -1,0 +1,324 @@
+//*Price*//
+.prices {
+    text-align: center;    
+}
+.price_item {
+    float: left;
+    width: 201px;
+    margin: 0px 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #e2e7ea;
+    background-color: #fff;
+    margin-bottom: 20px;
+    @media all and (max-width: 1199px) {
+        width: 169px;
+        margin: 0px 10px;
+        margin-bottom: 20px;
+    }
+    @media all and (min-width: 768px) and (max-width: 991px) {
+        display: inline-block;
+        float: none;
+    }
+    @media all and (max-width: 767px) {
+        width: 100%;
+        margin: 0px 0px;
+        margin-bottom: 20px;
+    }
+    &:nth-child(1) {
+        margin-left: 0px;
+    }
+    &:nth-last-child(1) {
+        margin-right: 0px;
+    }
+    .price_head {
+        background-color: @second_color;
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 0px;
+        @media all and (min-width: 768px) and (max-width: 1199px) {
+            padding: 15px;
+            padding-bottom: 0px;
+        }
+        h3 {
+            font-size: 18px;
+            font-style: italic;
+            color: #fff;
+            margin: 0px 0px 10px 0px;
+            text-transform: uppercase;
+        }
+        img {}
+        p {
+            color: #fff;
+            font-size: 30px;
+            font-style: italic;
+        }
+        span {
+            font-size: 14px;
+            color: #fff;
+            background-color: #0985cc;
+            padding: 5px 10px;
+            display: inline-block;
+            font-family: @roboto;
+            &.no_visible {
+                visibility: hidden;
+            }
+        }
+    }
+    .price_socials {
+        font-family: @roboto;
+        color: #60686e;
+        line-height: 16px;
+        font-weight: 400;
+        height: 50px;
+        font-size: 14px; 
+        padding: 10px 20px;
+        @media all and (min-width: 768px) and (max-width: 1199px) {
+            padding: 10px 15px;
+        }
+    }
+    .price_promo {
+        font-family: @roboto;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+        height: 50px;
+        color: #000;
+        padding: 0px 20px;
+
+        display: table-cell;
+        vertical-align: middle;
+        width: 204px;
+        @media all and (min-width: 768px) and (max-width: 1199px) {
+            font-size: 14px;
+            width: 172px;
+        }
+        span {
+            color: #60686e;
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: -5px;
+            display: block;
+            @media all and (min-width: 768px) and (max-width: 1199px) {
+                font-size: 10px;
+            }
+        }
+    }
+    .button_price {
+        padding: 10px 20px;
+
+    }
+    .options {        
+        font-size: 14px;
+        @media all and (min-width: 768px) and (max-width: 1199px) {
+            font-size: 12px;
+        }
+        @media all and (max-width: 767px) {
+            width: 100%;
+        }
+        color: #60686e;
+        font-family: @roboto;
+        padding: 0px 20px;        
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        width: 201px;
+        height: 40px;
+        position: relative;
+        padding-right: 43px;
+        span {           
+            background-position: right center;
+            background-repeat: no-repeat;
+            float: right;
+            width: 21px;
+            height: 22px;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            margin-top: -11px;
+        }
+        &.basic_promo {
+            text-align: center;
+            height: 80px;
+        }
+        &.widget span {
+            background-image: url(../images/widget.png);
+        }
+        &.supporters {
+            height: 50px;
+            span {
+                background-image: url(../images/supporters.png);
+            }
+        }
+        &.rewiews {
+            height: 50px;
+            span {
+                background-image: url(../images/rewiews.png);
+
+                width: 26px;
+                height: 25px;
+                margin-top: -12px;
+                right: 18px;
+            }
+        }
+        &.media {
+            height: 30px;
+            span {
+                background-image: url(../images/media.png);
+
+                width: 18px;
+                height: 18px;
+                margin-top: -9px;
+            }
+        }
+        &.active span{
+            background-position: 0px 0px;           
+        }
+        &.inactive{
+            color: #c2c2c2;
+            &.rewiews span {background-position: -26px 0px;}
+            &.media span {background-position: -18px 0px;}
+            span {
+                background-position: -21px 0px;
+            }
+        }
+    }
+    .divider {
+        border-bottom: 1px solid #e2e7ea;
+    }
+}
+
+.price_socials {
+    a {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-repeat: no-repeat;
+        @media all and (min-width: 768px) and (max-width: 1199px) {
+            background-size: 139px;
+            width: 20px;
+            height: 20px;
+        }
+        &.twitter {
+            background-position: 0 0;
+        }
+        &.facebook {
+            background-position: -29px 0;
+            @media all and (min-width: 768px) and (max-width: 1199px) { background-position: -24px 0; }
+        }
+        &.google_plus {
+            background-position: -58px 0;
+            @media all and (min-width: 768px) and (max-width: 1199px) { background-position: -48px 0; }
+        }
+        &.pinterest {
+            background-position: -87px 0;
+            @media all and (min-width: 768px) and (max-width: 1199px) { background-position: -72px 0; }
+        }
+        &.linkedin {
+            background-position: -116px 0;
+            @media all and (min-width: 768px) and (max-width: 1199px) { background-position: -95px 0; }
+        }
+        &.stumbleupon {
+            background-position: -145px 0;
+            @media all and (min-width: 768px) and (max-width: 1199px) { background-position: -119px 0; }
+        }
+        &.active {
+            background-image: url(../images/price_socials_active.png);
+        }
+        &.inactive {
+            background-image: url(../images/price_socials_inactive.png);
+        }
+    }
+}
+
+//* Add New Blogging Campaign *//
+
+.roboto {
+    font-family: @roboto !important;
+}
+
+.form-group {
+    min-height: 60px;
+    .form_tip {
+        color: #60686e;
+        font-size: 12px;
+    }
+    input[type=text]:focus , input[type=email]:focus, input[type=password]:focus, textarea:focus, select:focus {
+        border-color: @second_color !important;
+        box-shadow: none !important;
+        -webkit-box-shadow:  none !important;
+    }
+    .select_clone {
+        background-color: #fff;
+        background-image: url(../images/select_icon.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 33px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); 
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); 
+        -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        overflow: hidden;
+        .form-control {
+            border: none;
+            box-shadow: none;
+            width: 110%;
+            background-color: transparent;
+        }
+    }
+    .btn_grey {
+        background-color: #60686e;
+        color: #fff;
+        &:hover { color: #fff; }
+    }
+    .btn_right {
+        float: right;
+    }
+}
+
+.add_new_campaign {
+    padding-right: 30px;
+    .half_inputs {
+        .half_input {
+            &:nth-child(1) input, &:nth-child(1) .select_clone {
+                margin-left: -5px;
+                @media (max-width: 991px) {
+                    margin-left: 0px;
+                    width: 100%;
+                }
+            }
+            &:nth-child(2) input, &:nth-child(2) .select_clone {
+                width: 100%;
+            }
+            input , .select_clone {
+                width: 86%;
+            }
+        }
+    }
+
+    .form-group {
+        .roboto;
+    }
+    textarea.form-control {
+        height: 121px;
+        resize: none;
+    }
+    .gala4ka {
+        font-family: @font_exo2;
+        padding: 7px 12px 7px 36px;
+    }
+    .btn_grey {
+        font-family: @font_exo2;
+    }
+    .gala4ka , .btn_grey {
+        @media (max-width: 991px) {
+            float: none;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+     
+}

@@ -1,63 +1,64 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,500italic,700,700italic);
 /**COLORS*/
 /*FONTS VAR*/
 /*TRANSITIONS*/
 @media all and (max-width: 991px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000319}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000320}}
   .tablet_invisible {
     display: none !important;
   }
 }
 @media all and (min-width: 991px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000324}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000325}}
   .tablet_visible {
     display: block !important;
   }
 }
 @media all and (min-width: 991px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000329}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000330}}
   .screen_invisible {
     display: none !important;
   }
 }
 @media all and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000334}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000335}}
   .mobile_version {
     display: block !important;
   }
 }
 @media all and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000339}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000340}}
   .mobile_version_hidden {
     display: none !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000347}}
 .fa-fw {
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000350}}
 .padding_10 {
   padding-right: 10%;
 }
 @media all and (max-width: 991px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000351}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000352}}
   .padding_10 {
     padding-right: 0%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000358}}
 .breadcrumbs {
   border-bottom: 1px solid #e2e5e8;
 }
 @media all and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000359}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000360}}
   .breadcrumbs {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000363}}
 .breadcrumbs .breadcrumb {
   padding-left: 0;
   padding-right: 0;
@@ -67,44 +68,44 @@
   font-size: 12px;
   margin: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000371}}
 .breadcrumbs .breadcrumb > li + li:before {
   content: '\2022';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000374}}
 .breadcrumbs .breadcrumb li {
   color: #5c666e;
   font-weight: 600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000377}}
 .breadcrumbs .breadcrumb li a {
   color: #0099f1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000384}}
 .midle_container {
   background-color: #f0f0f0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000386}}
 .midle_container .page {
   font-family: 'Exo 2', sans-serif;
   margin: 35px 0px 50px 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000389}}
 .midle_container .page .page_title {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000391}}
 .midle_container .page .page_title h2 {
   margin: 0px;
   font-size: 30px;
   color: #2f3336;
   font-style: italic;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000398}}
 .midle_container .page .page_title2 {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003100}}
 .midle_container .page .page_title2 h2 {
   margin: 0px;
   font-size: 30px;
@@ -113,7 +114,7 @@
   font-weight: 600;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003108}}
 .midle_container .page .page_title2 span {
   font-size: 30px;
   color: #2f3336;
@@ -121,54 +122,54 @@
   display: inline-block;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003114}}
 .midle_container .page .page_title2 span.long_title_span {
   font-size: 18px;
   line-height: 24px;
   margin-top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003121}}
 .midle_container .page .page_block {
   background-color: #fff;
   border: 1px solid #e2e7ea;
   padding: 30px;
   font-family: 'Exo 2', sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003126}}
 .midle_container .page .page_block p,
 .midle_container .page .page_block li {
   color: #808387;
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003130}}
 .midle_container .page .page_block li {
   text-indent: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003133}}
 .midle_container .page .page_block h3 {
   font-size: 18px;
   color: #2f3336;
   margin-top: 0px;
 }
 @media all and (max-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003137}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003138}}
   .midle_container .page .page_block {
     margin-bottom: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003147}}
 .clear {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003150}}
 .fl {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003153}}
 .fr {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003156}}
 .progres {
   background-color: #242628;
   width: 75%;
@@ -176,41 +177,41 @@
   height: 11px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003157}}
 .progres.p_grey {
   background-color: #d0d7e0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003165}}
 .progres .curr_progres {
   height: 11px;
   border-radius: 6px;
   background-color: #0099f1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003171}}
 .container {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003174}}
 .margin_15_r {
   margin-right: 15px;
 }
 @media all and (max-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003175}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003176}}
   .margin_15_r {
     margin-right: 0px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003180}}
 .margin_15_l {
   margin-left: 15px;
 }
 @media all and (max-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003181}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003182}}
   .margin_15_l {
     margin-left: 0px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003186}}
 .button_blue {
   text-transform: uppercase;
   font-family: 'Exo 2', sans-serif;
@@ -224,26 +225,26 @@
   background-repeat: no-repeat;
   background-position: 15px center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003198}}
 .button_blue.read_more {
   background-image: url(../images/read_more.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003201}}
 .button_blue.show_now {
   background-image: url(../images/watch_now.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003207}}
 .pagination_guest ul {
   margin: 0px;
   padding: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003210}}
 .pagination_guest ul li {
   float: left;
   list-style: none;
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003214}}
 .pagination_guest ul li a {
   color: #0099f1;
   display: inline-block;
@@ -257,11 +258,32 @@
   font-size: 20px;
   transition: all 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003226}}
 .pagination_guest ul li a.active,
 .pagination_guest ul li a:hover {
   color: #fff;
   background-color: #0099f1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003235}}
+.gala4ka {
+  background-image: url(../images/gala4ka.png);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-color: #3caf42;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-style: italic;
+  border: none;
+  padding: 4px 12px 4px 36px;
+  border-radius: 4px;
+  outline: none;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/style\.less}line{font-family:\00003248}}
+  .gala4ka {
+    font-size: 12px;
+  }
 }
 /* Header Block Import*/
 @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/header\.less}line{font-family:\000031}}
@@ -2657,6 +2679,440 @@ End Header Page
 @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/compaign\.less}line{font-family:\00003203}}
 .supporters .supporters_item span {
   font-size: 14px;
+}
+/*Start Price and Formular pages*/
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\000032}}
+.prices {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\000035}}
+.price_item {
+  float: left;
+  width: 201px;
+  margin: 0px 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #e2e7ea;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+@media all and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000314}}
+  .price_item {
+    width: 169px;
+    margin: 0px 10px;
+    margin-bottom: 20px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000319}}
+  .price_item {
+    display: inline-block;
+    float: none;
+  }
+}
+@media all and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000323}}
+  .price_item {
+    width: 100%;
+    margin: 0px 0px;
+    margin-bottom: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000328}}
+.price_item:nth-child(1) {
+  margin-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000331}}
+.price_item:nth-last-child(1) {
+  margin-right: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000334}}
+.price_item .price_head {
+  background-color: #0099f1;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000339}}
+  .price_item .price_head {
+    padding: 15px;
+    padding-bottom: 0px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000343}}
+.price_item .price_head h3 {
+  font-size: 18px;
+  font-style: italic;
+  color: #fff;
+  margin: 0px 0px 10px 0px;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000351}}
+.price_item .price_head p {
+  color: #fff;
+  font-size: 30px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000356}}
+.price_item .price_head span {
+  font-size: 14px;
+  color: #fff;
+  background-color: #0985cc;
+  padding: 5px 10px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000363}}
+.price_item .price_head span.no_visible {
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000368}}
+.price_item .price_socials {
+  font-family: 'Roboto', sans-serif;
+  color: #60686e;
+  line-height: 16px;
+  font-weight: 400;
+  height: 50px;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000376}}
+  .price_item .price_socials {
+    padding: 10px 15px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000380}}
+.price_item .price_promo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  height: 50px;
+  color: #000;
+  padding: 0px 20px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 204px;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000392}}
+  .price_item .price_promo {
+    font-size: 14px;
+    width: 172px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\0000396}}
+.price_item .price_promo span {
+  color: #60686e;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: -5px;
+  display: block;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003102}}
+  .price_item .price_promo span {
+    font-size: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003107}}
+.price_item .button_price {
+  padding: 10px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003111}}
+.price_item .options {
+  font-size: 14px;
+  color: #60686e;
+  font-family: 'Roboto', sans-serif;
+  padding: 0px 20px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  width: 201px;
+  height: 40px;
+  position: relative;
+  padding-right: 43px;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003113}}
+  .price_item .options {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003116}}
+  .price_item .options {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003129}}
+.price_item .options span {
+  background-position: right center;
+  background-repeat: no-repeat;
+  float: right;
+  width: 21px;
+  height: 22px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003140}}
+.price_item .options.basic_promo {
+  text-align: center;
+  height: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003144}}
+.price_item .options.widget span {
+  background-image: url(../images/widget.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003147}}
+.price_item .options.supporters {
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003149}}
+.price_item .options.supporters span {
+  background-image: url(../images/supporters.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003153}}
+.price_item .options.rewiews {
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003155}}
+.price_item .options.rewiews span {
+  background-image: url(../images/rewiews.png);
+  width: 26px;
+  height: 25px;
+  margin-top: -12px;
+  right: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003164}}
+.price_item .options.media {
+  height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003166}}
+.price_item .options.media span {
+  background-image: url(../images/media.png);
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003174}}
+.price_item .options.active span {
+  background-position: 0px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003177}}
+.price_item .options.inactive {
+  color: #c2c2c2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003179}}
+.price_item .options.inactive.rewiews span {
+  background-position: -26px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003180}}
+.price_item .options.inactive.media span {
+  background-position: -18px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003181}}
+.price_item .options.inactive span {
+  background-position: -21px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003186}}
+.price_item .divider {
+  border-bottom: 1px solid #e2e7ea;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003192}}
+.price_socials a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003197}}
+  .price_socials a {
+    background-size: 139px;
+    width: 20px;
+    height: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003202}}
+.price_socials a.twitter {
+  background-position: 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003205}}
+.price_socials a.facebook {
+  background-position: -29px 0;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003207}}
+  .price_socials a.facebook {
+    background-position: -24px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003209}}
+.price_socials a.google_plus {
+  background-position: -58px 0;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003211}}
+  .price_socials a.google_plus {
+    background-position: -48px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003213}}
+.price_socials a.pinterest {
+  background-position: -87px 0;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003215}}
+  .price_socials a.pinterest {
+    background-position: -72px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003217}}
+.price_socials a.linkedin {
+  background-position: -116px 0;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003219}}
+  .price_socials a.linkedin {
+    background-position: -95px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003221}}
+.price_socials a.stumbleupon {
+  background-position: -145px 0;
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003223}}
+  .price_socials a.stumbleupon {
+    background-position: -119px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003225}}
+.price_socials a.active {
+  background-image: url(../images/price_socials_active.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003228}}
+.price_socials a.inactive {
+  background-image: url(../images/price_socials_inactive.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003236}}
+.roboto {
+  font-family: 'Roboto', sans-serif !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003240}}
+.form-group {
+  min-height: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003242}}
+.form-group .form_tip {
+  color: #60686e;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003246}}
+.form-group input[type=text]:focus,
+.form-group input[type=email]:focus,
+.form-group input[type=password]:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: #0099f1 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003251}}
+.form-group .select_clone {
+  background-color: #fff;
+  background-image: url(../images/select_icon.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 33px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003265}}
+.form-group .select_clone .form-control {
+  border: none;
+  box-shadow: none;
+  width: 110%;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003272}}
+.form-group .btn_grey {
+  background-color: #60686e;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003275}}
+.form-group .btn_grey:hover {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003277}}
+.form-group .btn_right {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003282}}
+.add_new_campaign {
+  padding-right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003286}}
+.add_new_campaign .half_inputs .half_input:nth-child(1) input,
+.add_new_campaign .half_inputs .half_input:nth-child(1) .select_clone {
+  margin-left: -5px;
+}
+@media (max-width: 991px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003288}}
+  .add_new_campaign .half_inputs .half_input:nth-child(1) input,
+  .add_new_campaign .half_inputs .half_input:nth-child(1) .select_clone {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003293}}
+.add_new_campaign .half_inputs .half_input:nth-child(2) input,
+.add_new_campaign .half_inputs .half_input:nth-child(2) .select_clone {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003296}}
+.add_new_campaign .half_inputs .half_input input,
+.add_new_campaign .half_inputs .half_input .select_clone {
+  width: 86%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003302}}
+.add_new_campaign .form-group {
+  font-family: 'Roboto', sans-serif !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003305}}
+.add_new_campaign textarea.form-control {
+  height: 121px;
+  resize: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003309}}
+.add_new_campaign .gala4ka {
+  font-family: 'Exo 2', sans-serif;
+  padding: 7px 12px 7px 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003313}}
+.add_new_campaign .btn_grey {
+  font-family: 'Exo 2', sans-serif;
+}
+@media (max-width: 991px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/price_formulars\.less}line{font-family:\00003317}}
+  .add_new_campaign .gala4ka,
+  .add_new_campaign .btn_grey {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 /*Start Advertising*/
 @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\000035}}

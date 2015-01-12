@@ -10,6 +10,8 @@ function main_custom() {
         custom.init_mobile_v();
         custom.show_summary(0);  
         custom.similar_campaign_height_stable();
+        custom.prices_options_width();
+        
     }
     this.init_content = function ()
     {
@@ -46,6 +48,11 @@ function main_custom() {
                 $('.col-sm-6:first', this).height($('.col-sm-6:last',this).height()+30);
             });
         }, 100);
+    }
+    this.prices_options_width = function() {
+        $('.price_item').each(function(){
+            $('.options',this).width($(this).width());
+        });
     }
     this.init_info = function ()
     {
@@ -171,6 +178,7 @@ $(document).ready(function () {
 $(window).resize(function(){
     custom.init_mobile_v();
     custom.similar_campaign_height_stable();
+    custom.prices_options_width();
     if ($(document).width()+17 <= 768) {
         custom.close_mobile_menu(); 
     } else {
