@@ -1,27 +1,9 @@
-@nice-red: #dc6263;
-@nice-blue: #2a96ff;
-@nice-green: #bad55f;
-@nice-gray: #989b9d;
-.font-exo2{
-    font-family: 'Exo 2', sans-serif;
-}
-.blue-span{
-    color:@nice-blue;
-}
-.gray-span{
-    color:@nice-gray;
-}
-.advantages{
-    margin-bottom: 30px;
-}
-.fa-red{
-    color:@nice-red;
-}
-.fa-blue{
-    color:@nice-blue;
-}
-.fa-green{
-    color:@nice-green;
+.title-heading{
+    margin:0 0 30px 0;
+    font-weight: 600;
+    font-style: italic;
+    .font-exo2;
+
 }
 .btn-buy{
     padding: 10px 40px;
@@ -41,7 +23,7 @@
     }
 }
 .advertising-pro{
-    .intro-header {
+    .intro-advertising {
         padding-top: 50px;
         padding-bottom: 50px;
         text-align: center;
@@ -78,23 +60,133 @@
             }
         }
     }
+    .features-advertising{
+        h2{
+            margin:50px 0 40px 0;
+            font-style: italic;
+            font-weight: 600;
+            .font-exo2;
+
+        }
+        .features{
+            .features-item{
+                width:100%;
+                .media-left{
+                    background-color: #2f3336;
+                    padding:40px;
+                    min-width: 140px;
+                    img{
+                        
+                        margin: 0 auto;
+                    }
+                }
+                .media-body{
+                    background-color: #fff;
+                    padding:20px;
+                    border-top:1px solid #e2e7ea;
+                    border-right:1px solid #e2e7ea;
+                    border-bottom:1px solid #e2e7ea;
+                    font-style: italic;
+                    width: 100%;
+                    p{
+                        color:#60686d;
+                    }
+                }
+            } 
+        }
+    }
+    .over-stats{
+        padding-top: 40px;
+        background-color: #fff;
+        .page_rank_info{
+            padding: 10px 0;
+            text-align: center;
+            background-color: #f6f6f6;
+            margin-top: 20px;
+            border: 1px solid #f3f3f3;
+            position: relative;
+            p{
+                .font-exo2;
+                font-size: 12px;
+                margin:0;
+                font-style: italic;
+                font-weight: 600;
+            }
+            > span{
+                display:block;
+                width:23px;
+                height:12px;
+                position: absolute;
+                top:-12px;
+                margin-left: -6px;
+                left:50%;
+                background: url(../images/up_arr_white.png) no-repeat;
+            }
+        }
+        .graph-info{
+            ul{
+                li{
+                    font-size: 11px;
+                    img{
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+        .doughnut_chart_pro{
+            text-align: center;
+            .pie_chart{
+                margin: 20px 0;
+            }
+        }
+        .line_chart_pro{
+            p{
+                margin: 10px 0 0 0;
+                .font-exo2;
+                font-weight: 600;
+                font-size: 18px;
+                font-style: italic;
+            }
+        }
+        
+    }
+    .footer-advertising {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        text-align: center;
+        color: #fff;
+        background: url(../images/footer-bg-advertising.jpg) no-repeat center center;
+        background-size: cover;
+        .font-exo2;
+        .footer-message{
+            h2{
+                margin: 0 0 40px 0;
+                font-size: 40px;
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+        }
+    }
 }
 
 
 .max-width-768() {
-   .intro-header {
-        .intro-message{
-            h1{
-               font-size: 30px; 
+    .advertising-pro{
+       .intro-advertising {
+            .intro-message{
+                h1{
+                   font-size: 30px; 
+                }
+                h3{
+                    font-size: 24px; 
+                }
+                p{
+                    font-size: 18px; 
+                }
             }
-            h3{
-                font-size: 24px; 
-            }
-            p{
-                font-size: 18px; 
-            }
-        }
-   }
+       }        
+    }
+
 
 }
 @media (max-width: 768px) {

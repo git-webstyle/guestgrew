@@ -9,6 +9,43 @@
         <!-- bxSlider CSS file -->
         <link href="plugins/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
         <script src="plugins/chart/Chart.js"></script>
+        <!-- Add mousewheel plugin (this is optional) -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="plugins/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="plugins/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="plugins/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <!-- Optionally add helpers - button, thumbnail and/or media -->
+        <link rel="stylesheet" href="plugins//fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="plugins//fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript" src="plugins//fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+        <script>
+          $(document).ready(function() {
+            $(".various").fancybox({
+                maxWidth  : 800,
+                maxHeight : 600,
+                fitToView : false,
+                width   : '80%',
+                height    : '80%',
+                autoSize  : false,
+                closeClick  : false,
+                openEffect  : 'none',
+                closeEffect : 'none',
+                padding: 2,
+                helpers : {
+                      media: {
+                          youtube : {
+                              params : {
+                                  autoplay : 1,
+                                  autohide: 1
+                              }
+                          }
+                      }
+                  }
+              });
+        });
+        </script>
     </head>
     <body>
         <header>

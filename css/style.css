@@ -3128,7 +3128,7 @@ End Header Page
   color: #989b9d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000314}}
-.advantages {
+.spaces-bottom {
   margin-bottom: 30px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000317}}
@@ -3172,7 +3172,7 @@ End Header Page
   letter-spacing: 1px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000357}}
-.advantages-block div {
+.advertiser-block div {
   padding: 20px;
   border: 1px solid #e2e7ea;
   background-color: #fff;
@@ -3180,11 +3180,11 @@ End Header Page
   min-height: 280px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000363}}
-.advantages-block div p {
+.advertiser-block div p {
   margin: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000366}}
-.advantages-block div i {
+.advertiser-block div i {
   font-size: 99px;
   margin-bottom: 30px;
 }
@@ -3288,49 +3288,28 @@ End Header Page
   .doughnut_chart_block {
     text-align: center !important;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000387}}
-  .intro-header .intro-message h1 {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003177}}
+  .advertising-pro .intro-advertising .intro-message h1 {
     font-size: 30px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000390}}
-  .intro-header .intro-message h3 {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003180}}
+  .advertising-pro .intro-advertising .intro-message h3 {
     font-size: 24px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000393}}
-  .intro-header .intro-message p {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003183}}
+  .advertising-pro .intro-advertising .intro-message p {
     font-size: 18px;
   }
 }
 /*Start Advertising Pro*/
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\000035}}
-.font-exo2 {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\000031}}
+.title-heading {
+  margin: 0 0 30px 0;
+  font-weight: 600;
+  font-style: italic;
   font-family: 'Exo 2', sans-serif;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\000038}}
-.blue-span {
-  color: #2a96ff;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000311}}
-.gray-span {
-  color: #989b9d;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000314}}
-.advantages {
-  margin-bottom: 30px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000317}}
-.fa-red {
-  color: #dc6263;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000320}}
-.fa-blue {
-  color: #2a96ff;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000323}}
-.fa-green {
-  color: #bad55f;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000326}}
 .btn-buy {
   padding: 10px 40px;
   border-color: #0099f1;
@@ -3343,13 +3322,13 @@ End Header Page
   text-decoration: none;
   font-style: italic;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000320}}
 .btn-buy:hover {
   color: #fff;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000344}}
-.advertising-pro .intro-header {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000326}}
+.advertising-pro .intro-advertising {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -3358,36 +3337,145 @@ End Header Page
   background-size: cover;
   font-family: 'Exo 2', sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000353}}
-.advertising-pro .intro-header .intro-message h1 {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000335}}
+.advertising-pro .intro-advertising .intro-message h1 {
   margin: 0;
   font-size: 60px;
   text-transform: uppercase;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000359}}
-.advertising-pro .intro-header .intro-message h3 {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000341}}
+.advertising-pro .intro-advertising .intro-message h3 {
   margin: 0;
   font-size: 30px;
   font-weight: 400;
   font-style: italic;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000365}}
-.advertising-pro .intro-header .intro-message .intro-divider {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000347}}
+.advertising-pro .intro-advertising .intro-message .intro-divider {
   max-width: 300px;
   border-top: 1px solid #f8f8f8;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000370}}
-.advertising-pro .intro-header .intro-message p {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000352}}
+.advertising-pro .intro-advertising .intro-message p {
   margin: 0 auto;
   font-size: 24px;
   font-weight: 400;
   max-width: 1020px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000376}}
-.advertising-pro .intro-header .intro-message .btn-buy {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000358}}
+.advertising-pro .intro-advertising .intro-message .btn-buy {
   margin: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000364}}
+.advertising-pro .features-advertising h2 {
+  margin: 50px 0 40px 0;
+  font-style: italic;
+  font-weight: 600;
+  font-family: 'Exo 2', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000372}}
+.advertising-pro .features-advertising .features .features-item {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000374}}
+.advertising-pro .features-advertising .features .features-item .media-left {
+  background-color: #2f3336;
+  padding: 40px;
+  min-width: 140px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000378}}
+.advertising-pro .features-advertising .features .features-item .media-left img {
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000383}}
+.advertising-pro .features-advertising .features .features-item .media-body {
+  background-color: #fff;
+  padding: 20px;
+  border-top: 1px solid #e2e7ea;
+  border-right: 1px solid #e2e7ea;
+  border-bottom: 1px solid #e2e7ea;
+  font-style: italic;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000391}}
+.advertising-pro .features-advertising .features .features-item .media-body p {
+  color: #60686d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000398}}
+.advertising-pro .over-stats {
+  padding-top: 40px;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003101}}
+.advertising-pro .over-stats .page_rank_info {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #f6f6f6;
+  margin-top: 20px;
+  border: 1px solid #f3f3f3;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003108}}
+.advertising-pro .over-stats .page_rank_info p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 12px;
+  margin: 0;
+  font-style: italic;
+  font-weight: 600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003115}}
+.advertising-pro .over-stats .page_rank_info > span {
+  display: block;
+  width: 23px;
+  height: 12px;
+  position: absolute;
+  top: -12px;
+  margin-left: -6px;
+  left: 50%;
+  background: url(../images/up_arr_white.png) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003128}}
+.advertising-pro .over-stats .graph-info ul li {
+  font-size: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003130}}
+.advertising-pro .over-stats .graph-info ul li img {
+  margin-left: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003136}}
+.advertising-pro .over-stats .doughnut_chart_pro {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003138}}
+.advertising-pro .over-stats .doughnut_chart_pro .pie_chart {
+  margin: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003143}}
+.advertising-pro .over-stats .line_chart_pro p {
+  margin: 10px 0 0 0;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003153}}
+.advertising-pro .footer-advertising {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  color: #fff;
+  background: url(../images/footer-bg-advertising.jpg) no-repeat center center;
+  background-size: cover;
+  font-family: 'Exo 2', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003162}}
+.advertising-pro .footer-advertising .footer-message h2 {
+  margin: 0 0 40px 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 @media (max-width: 768px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003146}}
@@ -3415,16 +3503,16 @@ End Header Page
   .doughnut_chart_block {
     text-align: center !important;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000387}}
-  .intro-header .intro-message h1 {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003177}}
+  .advertising-pro .intro-advertising .intro-message h1 {
     font-size: 30px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000390}}
-  .intro-header .intro-message h3 {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003180}}
+  .advertising-pro .intro-advertising .intro-message h3 {
     font-size: 24px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000393}}
-  .intro-header .intro-message p {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\00003183}}
+  .advertising-pro .intro-advertising .intro-message p {
     font-size: 18px;
   }
 }

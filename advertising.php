@@ -25,11 +25,11 @@
                 <div class="page">
 
                     <div class="row">
-                        <div class="col-sm-6 page_title_advertiser advantages">
+                        <div class="col-sm-6 page_title_advertiser spaces-bottom">
                             <h2>Advertiser Pro</h2>
                             <p>Features and Advantages</p>
                         </div>
-                        <div class="col-sm-6 btn_advertiser advantages">
+                        <div class="col-sm-6 btn_advertiser spaces-bottom">
                             <p>
                                 <a href="#"><i class="fa fa-caret-square-o-right fa-fw"></i>Get Advertiser Pro Account for $19.00!</a>
                             </p>
@@ -37,19 +37,19 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-4 advantages-block advantages">
+                        <div class="col-sm-4 advertiser-block spaces-bottom">
                             <div>
                                 <i class="fa fa-skype"></i>
                                 <p>Full support available to Pro Advertisers by Skype. Skype Help Id - <a href="">uttoransen</a></p>
                             </div>
                         </div>
-                        <div class="col-sm-4 advantages-block advantages">
+                        <div class="col-sm-4 advertiser-block spaces-bottom">
                             <div>
                                 <i class="fa fa-print"></i>
                                 <p>Get Published on Top Blogs and Media Sites like NY Times, Mashable, Lifehacker, Techcrunch, Independent, Wall Street Journal, Business Insider, Forbes, Examiner, Huffington Post and many more</p>
                             </div>
                         </div>
-                        <div class="col-sm-4 advantages-block advantages">
+                        <div class="col-sm-4 advertiser-block spaces-bottom">
                             <div>
                                 <i class="fa fa-print"></i>
                                 <p>Get the lowest prices - Pro Advertisers get huge publishing discounts</p>
@@ -57,19 +57,19 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-4 advantages-block advantages">
+                        <div class="col-sm-4 advertiser-block spaces-bottom">
                             <div>
                                 <i class="fa fa-print"></i>
                                 <p>Explorer member blogs - New blogs are added daily.</p>
                             </div>
                         </div>
-                        <div class="col-sm-4 advantages-block advantages">
+                        <div class="col-sm-4 advertiser-block spaces-bottom">
                             <div>
                                 <i class="fa fa-print"></i>
                                 <p>Start a Campaign for the Specific Blog you want - and get published.</p>
                             </div>
                         </div>
-                        <div class="col-sm-4 advantages-block advantages">
+                        <div class="col-sm-4 advertiser-block spaces-bottom">
                             <div>
                                 <i class="fa fa-print"></i>
                                 <p>Grow your Brand's Visibility, Build backlinks, Targeted Traffic and Social Media Presence</p>
@@ -77,12 +77,12 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 advantages title_line_chart">
+                        <div class="col-sm-12 title_line_chart">
                             <h2>Over Stats</h2>
                         </div>
                     </div> 
                     <div class="row">
-                        <div class="col-sm-12 advantages">
+                        <div class="col-sm-12 spaces-bottom">
                             
                             <div class="line_chart">
                                 <canvas id="canvas_line_chart" height="100"></canvas>
@@ -90,12 +90,12 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 advantages users-registered">
+                        <div class="col-sm-12 spaces-bottom users-registered">
                             <p>Number of users registered in the last <span class="blue-span">6 Months</span></p>
                         </div>
                     </div> 
                     <div class="row">
-                        <div class="col-md-3 doughnut_chart_block advantages">
+                        <div class="col-md-3 doughnut_chart_block  spaces-bottom">
                             <h4>How many strong blogs we have on <span class="blue-span">Gue Crew</span></h4>
                             <div class="pie_chart">
                                 <canvas id="canvas_doughnut_chart" height="150"></canvas>
@@ -107,7 +107,7 @@
                             <p>New Blogs are added everyday. <br> Benefis of Becoming a <span class="blue-span">Pro Advertiser</span>
                             </p>
                         </div>
-                        <div class="col-md-9 bar_chart_block advantages">
+                        <div class="col-md-9 bar_chart_block spaces-bottom">
                             <div class="bar_chart">
                                 <canvas id="canvas_bar_chart" height="100"></canvas>
                             </div>

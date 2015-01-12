@@ -27,7 +27,6 @@
             </div>
         </div>
         <!--<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>-->
-        <script src="js/jquery-1.10.2.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="js/bootstrap.min.js"></script>
         <!--<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>-->
