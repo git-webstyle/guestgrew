@@ -228,6 +228,6 @@
 
             </div>
         </div>
-<!-- LOAD FOOTER -->
+<!-- LOAD FOOTER xzczx-->
 <?php include("footer.php"); ?>
 <!-- LOAD FOOTER -->
