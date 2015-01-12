@@ -1,0 +1,102 @@
+@nice-red: #dc6263;
+@nice-blue: #2a96ff;
+@nice-green: #bad55f;
+@nice-gray: #989b9d;
+.font-exo2{
+    font-family: 'Exo 2', sans-serif;
+}
+.blue-span{
+    color:@nice-blue;
+}
+.gray-span{
+    color:@nice-gray;
+}
+.advantages{
+    margin-bottom: 30px;
+}
+.fa-red{
+    color:@nice-red;
+}
+.fa-blue{
+    color:@nice-blue;
+}
+.fa-green{
+    color:@nice-green;
+}
+.btn-buy{
+    padding: 10px 40px;
+    border-color: #0099f1;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #0099f1;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-style: italic;
+
+    &:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+.advertising-pro{
+    .intro-header {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        color: #fff;
+        background: url(../images/intro-bg-advertising.jpg) no-repeat center center;
+        background-size: cover;
+        .font-exo2;
+        .intro-message{
+            h1{
+                margin: 0;
+                font-size: 60px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            h3{
+                margin: 0;
+                font-size: 30px;
+                font-weight: 400;
+                font-style: italic;
+            }
+            .intro-divider {
+                max-width: 300px;
+                border-top: 1px solid #f8f8f8;
+                border-bottom: 1px solid rgba(0,0,0,0.2);
+            }
+            p{
+                margin: 0 auto;
+                font-size: 24px;
+                font-weight: 400;
+                max-width: 1020px;
+            }
+            .btn-buy{
+                margin:20px 0;
+            }
+        }
+    }
+}
+
+
+.max-width-768() {
+   .intro-header {
+        .intro-message{
+            h1{
+               font-size: 30px; 
+            }
+            h3{
+                font-size: 24px; 
+            }
+            p{
+                font-size: 18px; 
+            }
+        }
+   }
+
+}
+@media (max-width: 768px) {
+    .max-width-768();
+}

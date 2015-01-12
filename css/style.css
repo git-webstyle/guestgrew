@@ -2832,4 +2832,143 @@ End Header Page
   .doughnut_chart_block {
     text-align: center !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000387}}
+  .intro-header .intro-message h1 {
+    font-size: 30px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000390}}
+  .intro-header .intro-message h3 {
+    font-size: 24px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000393}}
+  .intro-header .intro-message p {
+    font-size: 18px;
+  }
+}
+/*Start Advertising Pro*/
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\000035}}
+.font-exo2 {
+  font-family: 'Exo 2', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\000038}}
+.blue-span {
+  color: #2a96ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000311}}
+.gray-span {
+  color: #989b9d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000314}}
+.advantages {
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000317}}
+.fa-red {
+  color: #dc6263;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000320}}
+.fa-blue {
+  color: #2a96ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000323}}
+.fa-green {
+  color: #bad55f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000326}}
+.btn-buy {
+  padding: 10px 40px;
+  border-color: #0099f1;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #0099f1;
+  font-size: 30px;
+  display: inline-block;
+  text-decoration: none;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000338}}
+.btn-buy:hover {
+  color: #fff;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000344}}
+.advertising-pro .intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #fff;
+  background: url(../images/intro-bg-advertising.jpg) no-repeat center center;
+  background-size: cover;
+  font-family: 'Exo 2', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000353}}
+.advertising-pro .intro-header .intro-message h1 {
+  margin: 0;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000359}}
+.advertising-pro .intro-header .intro-message h3 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000365}}
+.advertising-pro .intro-header .intro-message .intro-divider {
+  max-width: 300px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000370}}
+.advertising-pro .intro-header .intro-message p {
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 1020px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000376}}
+.advertising-pro .intro-header .intro-message .btn-buy {
+  margin: 20px 0;
+}
+@media (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003146}}
+  .btn_advertiser p {
+    text-align: left;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003151}}
+  .users-registered p {
+    font-size: 18px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003156}}
+  .page_rank_info p {
+    font-size: 14px !important;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003162}}
+  .graph-info .list-inline li {
+    font-size: 13px;
+    padding: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003165}}
+  .graph-info .list-inline li img {
+    margin-left: 5px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003171}}
+  .doughnut_chart_block {
+    text-align: center !important;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000387}}
+  .intro-header .intro-message h1 {
+    font-size: 30px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000390}}
+  .intro-header .intro-message h3 {
+    font-size: 24px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising-pro\.less}line{font-family:\0000393}}
+  .intro-header .intro-message p {
+    font-size: 18px;
+  }
 }
