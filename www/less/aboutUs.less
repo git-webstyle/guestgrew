@@ -1,0 +1,67 @@
+.about_item {
+    min-height: 100px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    p {
+        position: relative;
+        padding-left: 120px;
+        img {
+            position: absolute;
+            top: 0;
+            left: 10px;
+            @media all and (max-width: 580px) {
+                left: 0;
+                right: 0;
+                margin: auto;               
+            }
+        }
+        @media all and (max-width: 580px) {
+            padding-left: 0px;
+            padding-top: 88px;
+        }
+    }
+}
+
+
+
+.right_side {
+    .user_about {
+        margin-bottom: 10px;
+        height: 100px;
+        img {
+            float: left;
+        }
+        p {
+            font-size: 20px !important;
+            color: @base_color !important;
+            font-weight: bold;
+            padding-left: 115px;
+            margin: 0px;
+            padding-top: 17px;
+        }
+        span {
+            text-transform: uppercase;
+            color: #5c666e;
+            font-size: 12px;
+        }
+        +p {
+            float: left;
+        }
+    }
+    a {
+        float: right; 
+        margin-right: 10px;
+    }
+    .green_button {
+        background-color: #3caf42;
+        text-transform: uppercase;
+        color: #fff;
+        border: none;
+        height: 35px;
+        padding: 0px 14px;
+        font-style: italic;
+        font-weight: 600;
+        border-radius: 6px;
+    }
+
+}

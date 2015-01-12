@@ -1,0 +1,178 @@
+@nice-red: #dc6263;
+@nice-blue: #2a96ff;
+@nice-green: #bad55f;
+@nice-gray: #989b9d;
+.font-exo2{
+    font-family: 'Exo 2', sans-serif;
+}
+.blue-span{
+    color:@nice-blue;
+}
+.gray-span{
+    color:@nice-gray;
+}
+.advantages{
+    margin-bottom: 30px;
+}
+.fa-red{
+    color:@nice-red;
+}
+.fa-blue{
+    color:@nice-blue;
+}
+.fa-green{
+    color:@nice-green;
+}
+.page_title_advertiser{
+    h2{
+        margin:0 0 10px 0;
+    }
+    p{
+        margin:0;
+    }
+}
+
+.btn_advertiser{
+    p{
+        margin:0;
+        text-align: right;
+        a{
+            display:inline-block;
+            background-color: #3caf42;
+            color: #fff;
+            .font-exo2;
+            font-weight: 700;
+            font-style: italic;
+            text-transform: uppercase;
+            font-size: 14px;
+            padding: 15px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.advantages-block{
+    div{
+        padding:20px;
+        border:1px solid #e2e7ea;
+        background-color: #fff;
+        text-align: center;
+        min-height: 280px;
+        p{
+            margin:0;
+        }
+        i{
+            font-size: 99px;
+            margin-bottom: 30px;
+        }
+    }
+}
+.users-registered{
+    p{
+        margin:0;
+        .font-exo2;
+        font-weight: 400;
+        font-size: 30px;
+        font-style: italic;
+    }
+}
+.title_line_chart{
+    h2{
+        margin:0;
+    }
+}
+.bar_chart_block{
+    .page_rank_info{
+        padding:10px 0;
+        text-align: center;
+        background-color: #f6f6f6;
+        margin-top: 20px;
+        border:1px solid #f3f3f3;
+        position: relative;
+        p{
+            .font-exo2;
+            font-size: 24px;
+            margin:0;
+            font-style: italic;
+        }
+        > span{
+            display:block;
+            width:23px;
+            height:12px;
+            position: absolute;
+            top:-12px;
+            margin-left: -6px;
+            left:50%;
+            background: url(../images/up_arr_white.png) no-repeat;
+        }
+    }
+}
+.graph-info{
+    padding:10px 0;
+    background-color: #e5ebef;
+    .list-inline{
+        margin: 0;
+        text-align: center;
+        li{
+            font-size: 18px;
+            text-align: center;
+            .font-exo2;
+            img{
+                margin-left: 13px;
+            }
+        }
+    }
+}
+
+.doughnut_chart_block{
+    .pie_chart{
+        margin:40px 0; 
+    }
+    h4{
+        font-size: 18px;
+        list-style: italic;
+        margin:0;
+        .font-exo2; 
+    }
+    > p{
+        margin-bottom: 15px;
+    }
+}
+
+.max-width-768() {
+    .btn_advertiser{
+        p{
+            text-align: left;
+        }
+    }
+    .users-registered{
+        p{
+          font-size: 18px;  
+        }
+    }
+    .page_rank_info{
+        p{
+         font-size: 14px !important;   
+        }
+    }
+    .graph-info{
+        .list-inline{
+            li{
+               font-size: 13px; 
+               padding:0;
+               img{
+                 margin-left: 5px;
+               }
+            }
+        }
+    }
+    .doughnut_chart_block{
+        text-align: center !important;          
+    }
+
+}
+@media (max-width: 768px) {
+    .max-width-768();
+}
