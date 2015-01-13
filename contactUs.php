@@ -65,12 +65,10 @@
             <div class="col-md-4"><div class="row">
                     <div class="page_block margin_15_l right_side">
                         <h3 class="contact_left_title mail">Email</h3>
-                        <p>admin@guestcrew.com</p>
                         <h3 class="contact_left_title skype">Skype</h3>
-                        <p>uttoransen</p>
-                        <h3 class="contact_left_title socials">Social Media</h3>
+                        <h3 class="contact_left_title social">Social Media</h3>
                         <span class="social twitter2"><img src="images/twitter2.png"></span>
-                        <span class="social facebook2"><img src="images/facebook2.png"></span>
+                                <span class="social facebook2"><img src="images/facebook2.png"></span>
                     </div>
                 </div></div>
             <div class="clear"></div>
