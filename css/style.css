@@ -2723,6 +2723,19 @@ End Header Page
   margin-bottom: 30px;
   font-family: 'Exo 2', sans-serif;
 }
+.formulars > h3 {
+  margin: 0 0 30px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #373b3e;
+  padding-left: 35px;
+}
+.formulars > h3.ico-user {
+  background: url(../images/ico/ico-user.png) no-repeat;
+}
+.formulars > h3.ico-formular {
+  background: url(../images/ico/ico-formular.png) no-repeat;
+}
 .field-file {
   padding: 10px 20px;
   border: none;
@@ -2784,6 +2797,10 @@ End Header Page
   margin-left: -15px;
   left: 50%;
   background: url(../images/ico/ico-arrow-down.png) no-repeat;
+}
+/* Edit Profile */
+.edit-profile-select select {
+  width: 120% !important;
 }
 .disabled {
   color: #fafafa !important;
@@ -3036,6 +3053,7 @@ End Header Page
   background-color: #2f3336;
   padding: 40px;
   min-width: 140px;
+  vertical-align: middle;
 }
 .advertising-pro .features-advertising .features .features-item .media-left img {
   margin: 0 auto;
