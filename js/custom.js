@@ -185,3 +185,12 @@ $(window).resize(function(){
         $('.navbar-offcanvas').css('display','block');
     }
 });
+$('.field-file-campaign').change(function(event) {
+  $(this).parents('.file-campaign').next('.choose-campaign').text($(this).val());
+});
+$(".tablist a[data-toggle=tab]").on("click", function(e) {
+  if ($(this).hasClass("disabled")) {
+    e.preventDefault();
+    return false;
+  }
+});

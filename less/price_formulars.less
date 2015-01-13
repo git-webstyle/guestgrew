@@ -325,6 +325,7 @@
     }
      
 }
+<<<<<<< HEAD
 
 /* Board Message */
 .board_message {
@@ -416,4 +417,115 @@
         }
     }
     
+=======
+/*Formulars*/
+.arrow-down-blue{
+  display:block;
+  width:32px;
+  height:15px;
+  position: absolute;
+  bottom:-15px;
+  margin-left: -15px;
+  left:50%;
+  background: url(../images/ico/ico-arrow-down.png) no-repeat;
+}
+.formulars{
+  background-color: #fff;
+  border: 1px solid #e2e7ea;
+  padding: 30px;
+  margin-bottom:30px;
+  font-family: 'Exo 2', sans-serif;
+}
+.field-file{
+  padding:10px 20px;
+  border:none;
+  color:#fff;
+  
+}
+.file-campaign{
+  position: relative;
+  cursor: pointer;
+  background: @second_color url(../images/ico/ico-field-file.png) no-repeat 15px center;
+  display:inline-block;
+  border-radius:3px;
+  .choose-campaign{
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    padding: 5px 55px 5px 35px;
+    font-style:italic;
+    font-size:16px;
+    font-weight:bold;
+  }
+  .field-file-campaign{
+    opacity: 0;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    margin: 0;
+    cursor: pointer;
+  }
+}
+.tablist{
+   text-align: center;
+   margin-bottom:50px;
+  li{
+    a{
+      padding:20px 100px;
+      font-size:18px;
+      text-decoration:none;
+      font-style:italic;
+      background-color:#fff;
+      color:@second_color;
+      position:relative;
+      display:block;
+      border-radius:2px;
+      font-weight:600;
+      
+    }
+  }
+  li.active{
+    a{
+      background-color:@second_color;
+      color:#fff;
+      span{
+        .arrow-down-blue();
+      }
+    }
+  }
+}
+.disabled{
+    color: #fafafa !important;
+    cursor: no-drop;
+    background-color: #B9B9B9 !important;
+}
+
+.max-width-992() {
+  .tablist{
+    li{
+      margin-bottom:30px;
+      a{
+        padding:15px 50px;
+        font-size:18px; 
+      }
+    }
+  }
+}
+.max-width-768{
+  .tablist{
+    li{
+      margin-bottom:20px;
+      a{
+        padding:10px 20px;
+        font-size:14px; 
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+    .max-width-992();
+>>>>>>> 2d9f69b166a12e0c1ad2746407e9a27a5e7bdf44
 }
