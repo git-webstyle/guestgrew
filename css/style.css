@@ -1700,7 +1700,6 @@ End Header Page
   padding: 7px 20px;
   margin-top: 10px;
 }
-<<<<<<< HEAD
 .blog .blog_right_side .block ul {
   margin: 0;
   padding: 0;
@@ -1719,9 +1718,6 @@ End Header Page
   font-size: 16px;
 }
 .social {
-=======
-.blog .blog_right_side .block .social {
->>>>>>> 2d9f69b166a12e0c1ad2746407e9a27a5e7bdf44
   height: 60px;
   width: 100%;
   text-align: center;
@@ -1729,7 +1725,6 @@ End Header Page
   line-height: 60px;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
 .social:nth-last-child(1) {
   margin-bottom: 0px;
 }
@@ -1754,49 +1749,6 @@ End Header Page
 .social.pinterest {
   background-color: #ce1d21;
 }
-=======
-.blog .blog_right_side .block .social:nth-last-child(1) {
-  margin-bottom: 0px;
-}
-.blog .blog_right_side .block .social.google_plus {
-  background-color: #595959;
-}
-.blog .blog_right_side .block .social.linkedin {
-  background-color: #00659b;
-}
-.blog .blog_right_side .block .social.twitter2 {
-  background-color: #00abf1;
-}
-.blog .blog_right_side .block .social.facebook2 {
-  background-color: #39579a;
-}
-.blog .blog_right_side .block .social.stumbleupon {
-  background-color: #ec4813;
-}
-.blog .blog_right_side .block .social.thumblr {
-  background-color: #054e65;
-}
-.blog .blog_right_side .block .social.pinterest {
-  background-color: #ce1d21;
-}
-.blog .blog_right_side .block ul {
-  margin: 0;
-  padding: 0;
-}
-.blog .blog_right_side .block ul li {
-  list-style: none;
-  height: 42px;
-  border-bottom: 1px solid #d3d6d9;
-  line-height: 42px;
-}
-.blog .blog_right_side .block ul li:nth-last-child(1) {
-  border: none;
-}
-.blog .blog_right_side .block ul li a {
-  color: #000;
-  font-size: 16px;
-}
->>>>>>> 2d9f69b166a12e0c1ad2746407e9a27a5e7bdf44
 .blog_inside_title {
   background-image: url(../images/summary.jpg);
   background-repeat: repeat;
@@ -2579,12 +2531,9 @@ End Header Page
 .form-group {
   min-height: 60px;
 }
-<<<<<<< HEAD
 .form-group.without_toltip {
   min-height: 45px;
 }
-=======
->>>>>>> 2d9f69b166a12e0c1ad2746407e9a27a5e7bdf44
 .form-group .form_tip {
   color: #60686e;
   font-size: 12px;
@@ -2673,7 +2622,6 @@ End Header Page
     margin-bottom: 10px;
   }
 }
-<<<<<<< HEAD
 /* Board Message */
 .board_message .blue_nrdots_ul {
   margin-bottom: 20px;
@@ -2756,7 +2704,7 @@ End Header Page
   font-style: italic;
   color: #fff;
   padding-left: 45px;
-=======
+}
 /*Formulars*/
 .arrow-down-blue {
   display: block;
@@ -2857,7 +2805,6 @@ End Header Page
     padding: 15px 50px;
     font-size: 18px;
   }
->>>>>>> 2d9f69b166a12e0c1ad2746407e9a27a5e7bdf44
 }
 /*Start Advertising*/
 .font-exo2 {
@@ -2982,8 +2929,6 @@ End Header Page
   margin-bottom: 15px;
 }
 @media (max-width: 768px) {
-<<<<<<< HEAD
-=======
   .tablist li {
     margin-bottom: 20px;
   }
@@ -2991,7 +2936,6 @@ End Header Page
     padding: 10px 20px;
     font-size: 14px;
   }
->>>>>>> 2d9f69b166a12e0c1ad2746407e9a27a5e7bdf44
   .btn_advertiser p {
     text-align: left;
   }
@@ -3172,8 +3116,6 @@ End Header Page
   font-weight: 400;
 }
 @media (max-width: 768px) {
-<<<<<<< HEAD
-=======
   .tablist li {
     margin-bottom: 20px;
   }
@@ -3181,7 +3123,6 @@ End Header Page
     padding: 10px 20px;
     font-size: 14px;
   }
->>>>>>> 2d9f69b166a12e0c1ad2746407e9a27a5e7bdf44
   .btn_advertiser p {
     text-align: left;
   }
