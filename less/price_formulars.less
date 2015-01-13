@@ -2,9 +2,6 @@
 .prices {
     text-align: center;    
 }
-.radu {
-    width: 100%;
-}
 .price_item {
     float: left;
     width: 201px;
@@ -242,6 +239,9 @@
 
 .form-group {
     min-height: 60px;
+    &.without_toltip {
+        min-height: 45px;
+    }
     .form_tip {
         color: #60686e;
         font-size: 12px;
@@ -325,7 +325,95 @@
     }
      
 }
-.gala4ka22{
-    font-family: @font_exo2;
-    padding: 7px 12px 7px 36px;
+
+/* Board Message */
+.board_message {
+    .blue_nrdots_ul {
+        margin-bottom: 20px;
+    }
+    .board_btm_link {
+        margin: 0px 20px;
+    }
+}
+.btn_blue {
+    background-color: @second_color;
+    color: #fff;
+    font-style: italic;
+    &:hover {
+        color: #fff;
+    }
+}
+.grey_link {
+    color: #999;
+    font-size: 13px;
+    text-decoration: underline;
+    &:hover {
+        color: #828181;
+    }
+}
+.blue_nrdots_ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    li {
+        text-indent: 0px !important;
+        padding-left: 30px;
+        position: relative;
+        margin-bottom: 15px;
+        span {
+            background-color: #0099f1;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            font-size: 11px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: 4px;
+        }
+    }
+}
+
+
+/* Contact US */
+
+.contactUs {
+    h3 {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-style: italic;
+        color: @grey_text_hover_bold;
+        background-image: url(../images/plic_h3.png);
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 30px;
+        margin-bottom: 40px;
+    }
+    .form-horizontal {       
+        @media (min-width: 768px) {
+            padding-right: 70px;
+        }
+        .select_clone {
+            @media (min-width: 768px) {
+                width: 50%;
+            }
+        }
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+        button[type=submit] {
+            background-image: url(../images/plic_btn.png);
+            background-repeat: no-repeat;
+            background-position: 15px center;
+            background-color: @green_color;
+            text-transform: uppercase;
+            font-style: italic;
+            color: #fff;
+            padding-left: 45px;
+        }
+    }
+    
 }
