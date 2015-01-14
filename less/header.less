@@ -10,7 +10,7 @@ header {
         font-style: italic; 
         margin-right: 7px;
         padding-left: 0px;
-        @media all and (max-width: 768px) {
+        @media all and (max-width: 767px) {
             float: none;
             position: absolute;
             left: 50%;
@@ -21,7 +21,7 @@ header {
         color: #fff;
     }
     .navbar-toggle {
-        @media all and (max-width: 768px) {
+        @media all and (max-width: 767px) {
             float: left;               
         }
         .icon-bar {
@@ -71,7 +71,7 @@ header {
                 margin: 8px 0px;
                 outline: none;
                 display: none;
-                @media all and (max-width: 768px) {    
+                @media all and (max-width: 767px) {    
                     display: block;
                 }
             }
@@ -79,7 +79,7 @@ header {
         }
         .navbar-offcanvas {
             background-color: @base_color;
-            @media all and (max-width: 768px) {
+            @media all and (max-width: 767px) {
                 width: 80%;
                 height: 100%;
                 display:none;
@@ -115,7 +115,7 @@ header {
                     }
                 }
             }
-            @media all and (max-width: 768px) {
+            @media all and (max-width: 767px) {
                 .navbar-form {
                     border-bottom: 1px solid #c9d4dd;
                     margin: 0px;
@@ -245,6 +245,9 @@ header {
         line-height: 32px !important;
         margin: 8px 0px;
         transition: @tc_trans;
+        span {
+            font-style: normal;
+        }
         > img {
             margin-right: 10px;
         }
@@ -252,7 +255,7 @@ header {
 
     .navbar-form {
         margin: 22px 0px 22px 30px;
-        @media all and (max-width: 1200px) {
+        @media all and (max-width: 1199px) {
             margin-left: 0px;
         }
         .search {
@@ -260,7 +263,7 @@ header {
             background-color: #fff;
             width: 420px;
             border-radius: 6px;
-            @media all and (max-width: 1200px) {
+            @media all and (max-width: 1199px) {
                 width: 264px;
             }
             > input {
@@ -271,7 +274,7 @@ header {
                 font-family: @font_exo2;
                 font-size: 14px;
                 outline: none;
-                @media all and (max-width: 1200px) {
+                @media all and (max-width: 1199px) {
                     width: 226px;
                 }
             }

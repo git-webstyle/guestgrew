@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,500italic,700,700italic);
+/* Configs Import*/
 /**COLORS*/
 /*FONTS VAR*/
 /*TRANSITIONS*/
@@ -254,7 +255,7 @@ header .navmenu-brand {
   margin-right: 7px;
   padding-left: 0px;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   header .navbar-brand,
   header .navmenu-brand {
     float: none;
@@ -267,7 +268,7 @@ header .navbar-brand:hover,
 header .navmenu-brand:hover {
   color: #fff;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   header .navbar-toggle {
     float: left;
   }
@@ -327,7 +328,7 @@ header .navbar .navbar-nav .btn_mobile_search {
   outline: none;
   display: none;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   header .navbar .navbar-header .btn_mobile_search,
   header .navbar .navbar-nav .btn_mobile_search {
     display: block;
@@ -336,7 +337,7 @@ header .navbar .navbar-nav .btn_mobile_search {
 header .navbar .navbar-offcanvas {
   background-color: #2f3336;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   header .navbar .navbar-offcanvas {
     width: 80%;
     height: 100%;
@@ -374,7 +375,7 @@ header .navbar .navbar-offcanvas .header_menu_account .header_account {
 header .navbar .navbar-offcanvas .header_menu_account .header_account img {
   min-width: 40px;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   header .navbar .navbar-offcanvas .navbar-form {
     border-bottom: 1px solid #c9d4dd;
     margin: 0px;
@@ -506,13 +507,16 @@ header .header_account {
   margin: 8px 0px;
   transition: color 0.5s;
 }
+header .header_account span {
+  font-style: normal;
+}
 header .header_account > img {
   margin-right: 10px;
 }
 header .navbar-form {
   margin: 22px 0px 22px 30px;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1199px) {
   header .navbar-form {
     margin-left: 0px;
   }
@@ -523,7 +527,7 @@ header .navbar-form .search {
   width: 420px;
   border-radius: 6px;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1199px) {
   header .navbar-form .search {
     width: 264px;
   }
@@ -537,7 +541,7 @@ header .navbar-form .search > input {
   font-size: 14px;
   outline: none;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1199px) {
   header .navbar-form .search > input {
     width: 226px;
   }
@@ -571,7 +575,7 @@ End Header Page
   float: left;
   width: 490px;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1199px) {
   #footer .col_1 {
     width: 65%;
   }
@@ -627,7 +631,7 @@ End Header Page
   padding: 0 0 12px;
   margin: 0px;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1199px) {
   #footer h3 {
     padding: 0 0 0px;
     margin: 10px 0px 0px;
@@ -637,7 +641,7 @@ End Header Page
   float: left;
   width: 234px;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1199px) {
   #footer .col_2 {
     width: 30%;
     float: right;
@@ -661,7 +665,7 @@ End Header Page
   float: left;
   width: 416px;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1199px) {
   #footer .col_3 {
     width: 100%;
     border-top: 1px solid #484a4b;
