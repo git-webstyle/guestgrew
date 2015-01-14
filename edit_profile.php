@@ -37,10 +37,10 @@
                         </div>
                         <div class="col-xs-12 half_inputs">
                             <div class="row">
-                                <div class="col-md-6 half_input edit-profile-select">
+                                <div class="col-md-8 half_input edit-profile-select">
                                     <div class="row">
                                         <div class="form-group">
-                                            <label class="col-sm-4 control-label">Date of Birth:</label>
+                                            <label class="col-sm-3 control-label">Date of Birth:</label>
                                             <div class="col-sm-2"> 
                                                 <div class="select_clone">
                                                     <select class="form-control">
@@ -63,21 +63,30 @@
                                                     </select>                                               
                                                 </div>
                                             </div>
-                                            <div class="col-sm-2"> 
+                                            <div class="col-sm-2">
+                                              <input type="text" class="form-control">
+                                            </div>                                            
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">Date of Birth Privacy:</label>
+                                            <div class="col-sm-5"> 
                                                 <div class="select_clone">
-                                                    <select class="form-control"  id="select1">
-                                                        <option>1</option>
+                                                    <select class="form-control">
+                                                        <option>Hide Age and Date of Birth:</option>
                                                         <option>2</option>
                                                         <option>3</option>
                                                         <option>4</option>
                                                         <option>5</option>
                                                     </select>                                               
                                                 </div>
-                                            </div>                                            
-                                        </div>
-                                    </div>                            
+                                            </div>
+                                          <div class="col-sm-4">
+                                              <input type="text" class="form-control">
+                                          </div>                                          
+                                        </div>                                       
+                                    </div>                           
                                 </div>
-                                <div class="col-md-6 half_input">
+                                <div class="col-md-4 half_input">
                                     <div class="row">
                                         <div class="form-group">
                                             <label class="col-sm-4 control-label">Category:</label>
