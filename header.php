@@ -8,6 +8,7 @@
         <link href="css/font-awesome-4.2.0/css/font-awesome.min.css"  rel="stylesheet">
         <!-- bxSlider CSS file -->
         <link href="plugins/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+        <link href="plugins/iCheck/skins/all.css" rel="stylesheet">
         <script src="plugins/chart/Chart.js"></script>
         <!-- Add mousewheel plugin (this is optional) -->
         <script src="js/jquery-1.10.2.min.js"></script>
@@ -20,6 +21,7 @@
         <link rel="stylesheet" href="plugins//fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
         <script type="text/javascript" src="plugins//fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
         <script type="text/javascript" src="plugins//fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+        <script src="plugins/iCheck/icheck.js"></script>
         <script>
           $(document).ready(function() {
             $(".various").fancybox({

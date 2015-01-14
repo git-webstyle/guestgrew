@@ -2265,15 +2265,47 @@ End Header Page
 .prices {
   text-align: center;
 }
-.class1 {
-  color: #33acfe;
-  margin: 20px;
-  padding: 20px;
+.change-password {
+  background: #0099f1 url(../images/ico/ico-security-pass.png) no-repeat 15px center;
+  display: block;
+  padding: 9px 30px 9px 35px;
+  color: #fff;
+  border: none;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
-.class2 {
-  color: #efca44;
-  margin: 10px;
-  padding: 40px;
+.btn-blue {
+  background: #0099f1;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.btn-green {
+  background: #3caf42;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .price_item {
   float: left;
@@ -2769,13 +2801,14 @@ End Header Page
   font-size: 24px;
   text-transform: uppercase;
   color: #373b3e;
-  padding-left: 35px;
 }
 .formulars > h3.ico-user {
   background: url(../images/ico/ico-user.png) no-repeat;
+  padding-left: 35px;
 }
 .formulars > h3.ico-formular {
   background: url(../images/ico/ico-formular.png) no-repeat;
+  padding-left: 35px;
 }
 .field-file {
   padding: 10px 20px;
@@ -2847,10 +2880,70 @@ End Header Page
 .edit-profile-select select {
   width: 120% !important;
 }
+.profile-avatar {
+  display: table;
+  width: 100%;
+}
+.profile-avatar div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.profile-avatar img {
+  margin: 0 auto;
+}
+.profile-avatar .btn-profile-avatar {
+  padding-top: 30px;
+}
+.profile-avatar .btn-profile-avatar .change-avatar-profiles {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.profile-avatar .btn-profile-avatar .change-avatar-profiles .btn-blue {
+  cursor: pointer;
+}
+.profile-avatar .btn-profile-avatar .change-avatar-profiles .field-avatar {
+  opacity: 0;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  margin: 0;
+  cursor: pointer;
+}
+.edit-options label {
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+}
+.edit-options label div {
+  margin-top: -3px;
+}
+.edit-options label.checkbox-label {
+  margin-bottom: 20px;
+}
+.select-edit-profile {
+  margin-top: 30px;
+}
 .disabled {
   color: #fafafa !important;
   cursor: no-drop;
   background-color: #B9B9B9 !important;
+}
+.modal-change-password .modal-content {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 40px;
+}
+.modal-change-password .modal-content .modal-body h3 {
+  margin: 0 0 50px 0;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-transform: uppercase;
+}
+.modal-change-password .modal-content .modal-body p button {
+  margin: 0 auto;
 }
 .max-width-768 .tablist li {
   margin-bottom: 20px;
@@ -2861,11 +2954,24 @@ End Header Page
 }
 @media (max-width: 992px) {
   .tablist li {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
   .tablist li a {
     padding: 15px 50px;
     font-size: 18px;
+  }
+  .profile-avatar .btn-profile-avatar {
+    padding-top: 0px;
+  }
+  .fields-formular {
+    margin-bottom: 20px;
+  }
+  .btn-update-profile p {
+    text-align: center;
+    margin: 0;
+  }
+  .select-edit-profile {
+    margin-top: 0px;
   }
 }
 /*Start Advertising*/
