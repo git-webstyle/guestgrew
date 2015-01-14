@@ -2,11 +2,27 @@
 .prices {
     text-align: center;    
 }
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+.mixin(@color: black; @margin: 10px; @padding: 20px) {
+  color: @color;
+  margin: @margin;
+  padding: @padding;
+}
+.class1 {
+  .mixin(@margin: 20px; @color: #33acfe);
+}
+.class2 {
+  .mixin(#efca44; @padding: 40px);
+}
 .price_item {
     float: left;
     width: 201px;
     margin: 0px 15px;
-    border-radius: 5px;
+    .border-radius(5px);
     overflow: hidden;
     border: 1px solid #e2e7ea;
     background-color: #fff;
@@ -258,7 +274,7 @@
         background-position: right center;
         background-size: 33px;
         border: 1px solid #ccc;
-        border-radius: 4px;
+        .border-radius(4px);
         -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); 
         box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); 
         -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
@@ -367,7 +383,7 @@
             font-size: 11px;
             width: 16px;
             height: 16px;
-            border-radius: 50%;
+            .border-radius(50%);
             text-align: center;
             position: absolute;
             left: 0;
@@ -456,6 +472,19 @@
   padding: 30px;
   margin-bottom:30px;
   font-family: 'Exo 2', sans-serif;
+  > h3{
+    margin: 0 0 30px 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #373b3e;
+    padding-left: 35px;
+  }
+  > h3.ico-user{
+    background: url(../images/ico/ico-user.png) no-repeat;
+  }
+  > h3.ico-formular{
+    background: url(../images/ico/ico-formular.png) no-repeat;
+  }
 }
 .field-file{
   padding:10px 20px;
@@ -468,7 +497,7 @@
   cursor: pointer;
   background: @second_color url(../images/ico/ico-field-file.png) no-repeat 15px center;
   display:inline-block;
-  border-radius:3px;
+  .border-radius(3px);
   .choose-campaign{
     color: #fff;
     cursor: pointer;
@@ -503,7 +532,7 @@
       color:@second_color;
       position:relative;
       display:block;
-      border-radius:2px;
+      .border-radius(2px);
       font-weight:600;
       
     }
@@ -516,6 +545,13 @@
         .arrow-down-blue();
       }
     }
+  }
+}
+
+/* Edit Profile */
+.edit-profile-select{
+  select{
+    width:120% !important;
   }
 }
 .disabled{
