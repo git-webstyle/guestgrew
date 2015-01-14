@@ -2721,6 +2721,27 @@ End Header Page
   color: #fff;
   padding-left: 45px;
 }
+.contactUs .right_side p {
+  font-size: 16px !important;
+  color: #000 !important;
+  margin-bottom: 20px;
+}
+.contactUs .right_side .contact_left_title {
+  color: #5c666e !important;
+  font-size: 20px !important;
+  font-style: normal;
+  margin-bottom: 0px;
+}
+.contactUs .right_side .contact_left_title.mail {
+  background-image: url(../images/plic_right.png);
+}
+.contactUs .right_side .contact_left_title.skype {
+  background-image: url(../images/skype_icon.png);
+}
+.contactUs .right_side .contact_left_title.socials {
+  background-image: url(../images/social.png);
+  margin-bottom: 10px;
+}
 /*Formulars*/
 .arrow-down-blue {
   display: block;
