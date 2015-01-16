@@ -5,6 +5,18 @@
 /**COLORS*/
 /*FONTS VAR*/
 /*TRANSITIONS*/
+.clear {
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fa-fw {
+  margin-right: 10px;
+}
 @media all and (max-width: 991px) {
   .tablet_invisible {
     display: none !important;
@@ -29,9 +41,6 @@
   .mobile_version_hidden {
     display: none !important;
   }
-}
-.fa-fw {
-  margin-right: 10px;
 }
 .padding_10 {
   padding-right: 10%;
@@ -130,15 +139,6 @@
   .midle_container .page .page_block {
     margin-bottom: 20px;
   }
-}
-.clear {
-  clear: both;
-}
-.fl {
-  float: left;
-}
-.fr {
-  float: right;
 }
 .progres {
   background-color: #242628;

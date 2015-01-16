@@ -5,6 +5,18 @@
 /**COLORS*/
 /*FONTS VAR*/
 /*TRANSITIONS*/
+.clear {
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fa-fw {
+  margin-right: 10px;
+}
 .log_out {
   margin-left: 70px;
   color: #fff;
@@ -39,6 +51,51 @@
   }
 }
 /* Menu */
+@media (min-width: 992px) {
+  .left_side_menu {
+    width: 27.333333% !important;
+  }
+}
+.left_side_menu .dash_top_radio_links {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.left_side_menu .dash_top_radio_links a {
+  font-size: 14px;
+  color: #5c666e;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  width: 50%;
+  border: 1px solid #e2e7ea;
+  background-color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 6px 0px;
+  text-transform: uppercase;
+  float: left;
+}
+.left_side_menu .dash_top_radio_links a.active {
+  background-color: #0099f1;
+  border-color: #0099f1;
+  color: #fff;
+}
+.left_side_menu .dash_top_radio_links a:nth-child(1) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.left_side_menu .dash_top_radio_links a:nth-child(2) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn_green {
+  background-color: #3caf42;
+  color: #fff;
+  font-style: italic;
+}
+.btn_green:hover {
+  color: #fff;
+}
 .cat_1_item {
   transition: all 0.5s;
   cursor: pointer;
@@ -80,7 +137,11 @@
 }
 .dash_menu .cat_1 {
   background-color: #2f3336;
-  height: 700px;
+}
+@media (min-width: 992px) {
+  .dash_menu .cat_1 {
+    min-height: 845px;
+  }
 }
 .dash_menu .cat_1 ul {
   margin: 0;
@@ -94,6 +155,7 @@
   text-align: center;
 }
 .dash_menu .cat_1 ul li a {
+  font-size: 12px;
   color: #94a0a9;
   text-decoration: none;
 }
@@ -107,6 +169,108 @@
 }
 .dash_menu .cat_2 {
   background-color: #373b3e;
-  height: 700px;
+  border-left: 1px solid #2f3235;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .dash_menu .cat_2 {
+    min-height: 845px;
+  }
+}
+.dash_menu .cat_2 .cat_2_item_block {
+  display: none;
+  padding: 20px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.dash_menu .cat_2 .cat_2_item_block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dash_menu .cat_2 .cat_2_item_block ul li {
+  font-size: 14px;
+  margin-left: -1px;
+  border-left: 1px solid #2f3235;
+  position: relative;
+}
+@media (max-width: 1199px) {
+  .dash_menu .cat_2 .cat_2_item_block ul li {
+    font-size: 13px;
+  }
+}
+.dash_menu .cat_2 .cat_2_item_block ul li a {
+  color: #94a0a9;
+  display: block;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 15px 45px 15px 15px;
+}
+.dash_menu .cat_2 .cat_2_item_block ul li a span {
+  color: #fff;
+  background-color: #3caf42;
+  width: 30px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 4px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.dash_menu .cat_2 .cat_2_item_block ul li:hover,
+.dash_menu .cat_2 .cat_2_item_block ul li.active {
+  border-color: #2a2d30;
+  background-color: #313538;
+}
+.dash_menu .cat_2 .cat_2_item_block ul li:hover a,
+.dash_menu .cat_2 .cat_2_item_block ul li.active a {
+  color: #fff;
+}
+.dash_menu .cat_2 .cat_2_item_block ul li.white a {
+  color: #fff;
+}
+.dash_menu .cat_2 .cat_2_item_block ul li.white a span {
+  background-color: #464c51;
+  background-image: url(../images/dashboard/blue_arrow_down.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 992px) {
+  .right_side_content {
+    width: 72.666667% !important;
+  }
+}
+@media (min-width: 992px) {
+  .right_side_content {
+    min-height: 845px;
+  }
+}
+.right_side_content .right_top_buttons {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.right_side_content .right_top_buttons a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  padding: 7px 13px;
+  text-decoration: none;
+  margin-left: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.right_side_content .right_content {
+  background-color: #fafafa;
+  border: 1px solid #e2e7ea;
+  border-left: none;
+  pading: 0px;
 }
 /*# sourceMappingURL=dashboard.css.map */
