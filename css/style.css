@@ -32,12 +32,12 @@
     display: none !important;
   }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .mobile_version {
     display: block !important;
   }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .mobile_version_hidden {
     display: none !important;
   }

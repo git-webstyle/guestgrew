@@ -29,6 +29,21 @@
         <!--<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>-->
         <!-- Latest compiled and minified JavaScript -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/response.min.js"></script>
+        
+        <!--Scroll Plugin-->
+        <script src="plugins/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script>
+		(function($){
+			$(window).load(function(){
+				
+				$("#scroll-content").mCustomScrollbar({
+					theme:"minimal"
+				});
+				
+			});
+		})(jQuery);
+	</script>
         <!--<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>-->
         <script src="js/jquery-ui.js"></script>
         <!--Add Custom JS-->

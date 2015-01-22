@@ -10,6 +10,10 @@
         <link href="css/font-awesome-4.2.0/css/font-awesome.min.css"  rel="stylesheet">
         <!-- bxSlider CSS file -->
         <link href="plugins/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+        
+        <!-- Scroll Plugin Css -->
+        <link href="plugins/scroll/jquery.mCustomScrollbar.css" rel="stylesheet" />
+        
         <script src="plugins/chart/Chart.js"></script>
         <!-- Add mousewheel plugin (this is optional) -->
         <script src="js/jquery-1.10.2.min.js"></script>
@@ -56,7 +60,7 @@
                 <div class="navbar">
                     <div class="navbar-header">
 
-                        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="" data-canvas="body">
+                        <button type="button" class="navbar-toggle" data-toggle="dash" data-target="" data-canvas="body">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
