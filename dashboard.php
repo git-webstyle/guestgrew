@@ -78,21 +78,7 @@
                                         <li><a href="">Drafts<span>15</span></a></li>
                                         <li><a href="">Important<span>1</span></a></li>
                                         <li><a href="">Starred<span>7</span></a></li>   
-                                        <li><a href="">Inbox<span>3</span></a></li>
-                                        <li><a href="">Sent Mail<span>23</span></a></li>
-                                        <li><a href="">Drafts<span>15</span></a></li>
-                                        <li><a href="">Important<span>1</span></a></li>
-                                        <li><a href="">Starred<span>7</span></a></li>       
-                                        <li><a href="">Inbox<span>3</span></a></li>
-                                        <li><a href="">Sent Mail<span>23</span></a></li>
-                                        <li><a href="">Drafts<span>15</span></a></li>
-                                        <li><a href="">Important<span>1</span></a></li>
-                                        <li><a href="">Starred<span>7</span></a></li>       
-                                        <li><a href="">Inbox<span>3</span></a></li>
-                                        <li><a href="">Sent Mail<span>23</span></a></li>
-                                        <li><a href="">Drafts<span>15</span></a></li>
-                                        <li><a href="">Important<span>1</span></a></li>
-                                        <li><a href="">Starred<span>7</span></a></li>       
+                                         
                                     </ul>
                                 </div>
                                 <div id="bl_4" class="cat_2_item_block">

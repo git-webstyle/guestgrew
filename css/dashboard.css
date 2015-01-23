@@ -661,4 +661,25 @@
   right: 8px;
   color: #60686d;
 }
+/* DASBOARD MESSAGE*/
+.message_toolbar {
+  padding: 10px;
+  border-bottom: 1px solid #ecedef;
+}
+.message_toolbar button {
+  font-weight: 700;
+  font-size: 14px;
+  font-style: italic;
+  color: #5c666e;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 1px solid #e2e5e8;
+  padding: 10px 20px 10px 30px;
+}
+.message_toolbar button.mess_moveto {
+  background-image: url(../images/dashboard/dash_moveto.png);
+}
+.message_toolbar button.mess_delete {
+  background-image: url(../images/dashboard/dash_delete.png);
+}
 /*# sourceMappingURL=dashboard.css.map */
