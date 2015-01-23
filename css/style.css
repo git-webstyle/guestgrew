@@ -2687,6 +2687,14 @@ End Header Page
 .btn_blue:hover {
   color: #fff;
 }
+.btn_draft {
+  background-color: #5c666e;
+  color: #fff;
+  font-style: italic;
+}
+.btn_draft:hover {
+  color: #fff;
+}
 .grey_link {
   color: #999;
   font-size: 13px;
@@ -2916,9 +2924,6 @@ End Header Page
   display: block;
   font-weight: 600;
   cursor: pointer;
-}
-.edit-options label div {
-  margin-top: -3px;
 }
 .edit-options label.checkbox-label {
   margin-bottom: 20px;

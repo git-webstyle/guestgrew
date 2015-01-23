@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,500italic,700,700italic);
+/**COLORS*/
+/*FONTS VAR*/
+/*TRANSITIONS*/
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/config\.less}line{font-family:\0000318}}
+.clear {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/config\.less}line{font-family:\0000321}}
+.fl {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/config\.less}line{font-family:\0000324}}
+.fr {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/config\.less}line{font-family:\0000327}}
+.fa-fw {
+  margin-right: 10px;
+}
