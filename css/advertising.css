@@ -1,0 +1,174 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\000035}}
+.font-exo2 {
+  font-family: 'Exo 2', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\000038}}
+.blue-span {
+  color: #2a96ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000311}}
+.gray-span {
+  color: #989b9d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000314}}
+.spaces-bottom {
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000317}}
+.fa-red {
+  color: #dc6263;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000320}}
+.fa-blue {
+  color: #2a96ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000323}}
+.fa-green {
+  color: #bad55f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000327}}
+.page_title_advertiser h2 {
+  margin: 0 0 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000330}}
+.page_title_advertiser p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000336}}
+.btn_advertiser p {
+  margin: 0;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000339}}
+.btn_advertiser p a {
+  display: inline-block;
+  background-color: #3caf42;
+  color: #fff;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000357}}
+.advertiser-block div {
+  padding: 20px;
+  border: 1px solid #e2e7ea;
+  background-color: #fff;
+  text-align: center;
+  min-height: 280px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000363}}
+.advertiser-block div p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000366}}
+.advertiser-block div i {
+  font-size: 99px;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000373}}
+.users-registered p {
+  margin: 0;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000382}}
+.title_line_chart h2 {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000387}}
+.bar_chart_block .page_rank_info {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #f6f6f6;
+  margin-top: 20px;
+  border: 1px solid #f3f3f3;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\0000394}}
+.bar_chart_block .page_rank_info p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 24px;
+  margin: 0;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003100}}
+.bar_chart_block .page_rank_info > span {
+  display: block;
+  width: 23px;
+  height: 12px;
+  position: absolute;
+  top: -12px;
+  margin-left: -6px;
+  left: 50%;
+  background: url(../images/up_arr_white.png) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003112}}
+.graph-info {
+  padding: 10px 0;
+  background-color: #e5ebef;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003115}}
+.graph-info .list-inline {
+  margin: 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003118}}
+.graph-info .list-inline li {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003122}}
+.graph-info .list-inline li img {
+  margin-left: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003130}}
+.doughnut_chart_block .pie_chart {
+  margin: 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003133}}
+.doughnut_chart_block h4 {
+  font-size: 18px;
+  list-style: italic;
+  margin: 0;
+  font-family: 'Exo 2', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003139}}
+.doughnut_chart_block > p {
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003146}}
+  .btn_advertiser p {
+    text-align: left;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003151}}
+  .users-registered p {
+    font-size: 18px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003156}}
+  .page_rank_info p {
+    font-size: 14px !important;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003162}}
+  .graph-info .list-inline li {
+    font-size: 13px;
+    padding: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003165}}
+  .graph-info .list-inline li img {
+    margin-left: 5px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/home\/guestgrew\/www\/less\/advertising\.less}line{font-family:\00003171}}
+  .doughnut_chart_block {
+    text-align: center !important;
+  }
+}

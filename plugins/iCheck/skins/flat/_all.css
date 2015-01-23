@@ -1,5 +1,9 @@
 /* iCheck plugin Flat skin
 ----------------------------------- */
+.icheckbox_square-blue{
+    margin-top: -3px;
+    margin-right: 5px;
+}
 .icheckbox_flat,
 .iradio_flat {
     display: inline-block;
