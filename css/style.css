@@ -2280,7 +2280,7 @@ End Header Page
   border-radius: 5px;
 }
 .btn-blue {
-  background: #0099f1;
+  background-color: #0099f1;
   display: block;
   padding: 10px 20px;
   color: #fff;
@@ -2618,15 +2618,15 @@ End Header Page
   width: 110%;
   background-color: transparent;
 }
-.form-group .btn_grey {
+.form-group .btn_right {
+  float: right;
+}
+.btn_grey {
   background-color: #60686e;
   color: #fff;
 }
-.form-group .btn_grey:hover {
+.btn_grey:hover {
   color: #fff;
-}
-.form-group .btn_right {
-  float: right;
 }
 .add_new_campaign {
   padding-right: 30px;

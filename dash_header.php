@@ -11,10 +11,13 @@
         <!-- bxSlider CSS file -->
         <link href="plugins/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
         
+        <link href="plugins/iCheck/skins/all.css" rel="stylesheet">
+        
         <!-- Scroll Plugin Css -->
         <link href="plugins/scroll/jquery.mCustomScrollbar.css" rel="stylesheet" />
         
         <script src="plugins/chart/Chart.js"></script>
+        
         <!-- Add mousewheel plugin (this is optional) -->
         <script src="js/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="plugins/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -52,6 +55,9 @@
               });
         });
         </script>
+        <!-- iCheck -->
+        
+        <script src="plugins/iCheck/icheck.js"></script>
     </head>
     <body>
         <header>
