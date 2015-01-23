@@ -141,33 +141,13 @@
                             </div>
                             <div class="clear"></div>
                         </div>
-                        <div class="btn-group btn-group-justified dash_tabs_mobile mobile_version" role="group" aria-label="...">
-                            <div class="btn-group" role="group">
-                                <button type="button" class="btn btn-default open_dashtab" data-tab="notifications">Last <br> Notifications</button>
-                            </div>
-                            <div class="btn-group" role="group">
-                                <button type="button" class="btn btn-default open_dashtab active" data-tab="campaigns">Last<br> Campaigns</button>
-                            </div>
-                            <div class="btn-group" role="group">
-                                <button type="button" class="btn btn-default open_dashtab"  data-tab="messages">Last<br> Messages</button>
-                            </div>
-                        </div>
-                        <div class="col-md-8 left_side">
-                            <div class="row">
-                                <div class="last_notification dash_tab_content_content" id="notifications">
-                                    <h2 class="dash_title">Last Notification</h2>
-                                    <div class="last_notification_item dash_block">
-                                        <h3>A Concert Violin In This Week </h3>
-                                        <p>Sed ut perspiciatis unde omnis ist voluptatem accus antium doloremque laudantium, totam rem aperiamillo inventore veritatis.</p>
-                                    </div>
-                                    <div class="last_notification_item dash_block">
-                                        <h3>A Concert Violin In This Week </h3>
-                                        <p>Sed ut perspiciatis unde omnis ist voluptatem accus antium doloremque laudantium, totam rem aperiamillo inventore veritatis.</p>
-                                    </div>
-                                </div>
-                                <div class="last_campaign dash_tab_content_content active_content" id="campaigns">
+                        
+                        <div class="col-xs-12 left_side campaigns_page">
+                            <div class="row">                               
+                                <div class="last_campaign" >
                                     <h2 class="dash_title">Last Campaign</h2>
                                     <div class="last_campaign_item dash_block">
+                                        <div class="col-md-8 campaign_item_r">
                                         <div class="row col">
                                             <div class="col-sm-4">
                                                 <div class="row">
@@ -181,26 +161,35 @@
                                                 <p>Duis aute irure dolor in reprehenderit pariatur velites cillum dolore.</p>
 
                                                 <div class="progress_container">
-                                                  
                                                         <p class="days">6 days left</p>
                                                         <div class='progres p_grey'>
                                                             <div class="curr_progres" style="width: 60%;"></div>
                                                         </div> 
-                                                    
                                                 </div>
-                                                <div class="soc_reach">
-                                                    
-                                                        <span><b>844,900</b> Social Reach</span>
-                                                   
-                                                </div>
-
-
+                                                <div class="soc_reach"><span><b>844,900</b> Social Reach</span></div>
                                                 <div class="clear"></div>
                                             </div>
-                                            <div class="clear"></div>
+                                            
                                         </div>
+                                            
+                                        </div>
+                                        <div class="col-md-4 campaign_item_l">
+                                            <div class="row">
+                                                <span>Number of Supporters: <b>150</b></span>
+                                                <span>User Score: <b>520</b></span>
+                                                <span>Buget: <b>$5452</b></span>
+                                                
+                                                <div class="campaign_buttons">
+                                                    <a href="#" class="stop"><i class="fa fa-square-o "> </i>Stop</a>
+                                                    <a href="#" class="edit"><i class="fa fa-pencil "></i>Edit</a>
+                                                    <a href="#" class="delete"><i class="fa fa-trash-o "></i>Delete</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
                                     </div>
                                     <div class="last_campaign_item dash_block">
+                                        <div class="col-md-8 campaign_item_r">
                                         <div class="row col">
                                             <div class="col-sm-4">
                                                 <div class="row">
@@ -230,45 +219,21 @@
 
                                                 <div class="clear"></div>
                                             </div>
-                                            <div class="clear"></div>
+                                            
                                         </div>
+                                            
+                                        </div>
+                                        <div class="col-md-4 campaign_item_l">
+                                            <div class="row">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
                                     </div>
                                 </div>
                             </div>                               
                         </div>
-                        <div class="col-md-4 right_side">
-                            <div class="row">
-                                <a href="#" class="dash_advertising tablet_invisible"><img src="images/dashboard/advertise.jpg" class="img-responsive"></a>
-                                <div class="last_messages dash_tab_content_content" id="messages">
-                                    <h2 class="dash_title">Last Messages</h2>
-                                    <div class="last_messages_item dash_block">
-                                        <span>Michael Norton</span>
-                                        <p><span>Our New Campaign - </span>Erit pariatur...</p>
-                                        <span class="time">19:20 am</span>
-                                    </div>
-                                    <div class="last_messages_item dash_block">
-                                        <span>Michael Norton</span>
-                                        <p><span>Our New Campaign - </span>Erit pariatur...</p>
-                                        <span class="time">19:20 am</span>
-                                    </div>
-                                    <div class="last_messages_item dash_block">
-                                        <span>Michael Norton</span>
-                                        <p><span>Our New Campaign - </span>Erit pariatur...</p>
-                                        <span class="time">19:20 am</span>
-                                    </div>
-                                    <div class="last_messages_item dash_block">
-                                        <span>Michael Norton</span>
-                                        <p><span>Our New Campaign - </span>Erit pariatur...</p>
-                                        <span class="time">19:20 am</span>
-                                    </div>
-                                    <div class="last_messages_item dash_block">
-                                        <span>Michael Norton</span>
-                                        <p><span>Our New Campaign - </span>Erit pariatur...</p>
-                                        <span class="time">19:20 am</span>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
+                        
                         <div class="clear"></div>
                     </div>
                 </div>

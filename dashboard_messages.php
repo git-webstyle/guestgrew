@@ -1,5 +1,14 @@
 <!-- LOAD HEADER -->
 <?php include("dash_header.php"); ?>
+<script>
+  $(document).ready(function() {
+    $('.checkbox_input').iCheck({
+        checkboxClass: 'icheckbox_minimal-blue',
+        radioClass: 'iradio_minimal-blue',
+        increaseArea: '15%' // optional
+    });   
+  }); 
+</script>
 <!-- LOAD HEADER -->
 <div class="breadcrumbs">
     <div class="container">
@@ -71,6 +80,7 @@
                                     </ul>
                                 </div>
                                 <div id="bl_3" class="cat_2_item_block">
+                                    <button type="button" class="btn-blue compose">COMPOSE</button>
                                     <ul>
 <!--                                        <li class="white"><a href="">Guest Bligging Offers<span></span></a></li>-->
                                         <li><a href="">Inbox<span>3</span></a></li>
@@ -116,11 +126,114 @@
                     </div>
                     <div class="right_content">
                         <div class="message_toolbar">
-                            <button type="button" class="mess_moveto">Move TO</button>
-                            <button type="button" class="mess_delete">Delete</button>
+                            <button type="button" class="mess_button mess_moveto">Move TO</button>
+                            <button type="button" class="mess_button mess_delete">Delete</button>
                             <span><b>10</b> of <b>436</b></span>
                         </div>
-                        
+                        <div class="inbox">
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="inbox_item">
+                                <div class="col-lg-1 col-md-1 col-xs-3"><div class="row">
+                                        <label class="checkbox-label"><input type="checkbox" class="checkbox_input" value=""></label> 
+                                        <input type="image" src="images/dashboard/star.png">
+                                    </div></div>
+                                <div class="col-lg-2 col-md-3 col-xs-6 msg_sender"><div class="row">Michael Norton</div></div>
+                                <div class="col-lg-1 col-md-1 col-xs-push-0 col-md-push-7 col-lg-push-8 col-xs-3 msg_time"><div class="row">12:20 am</div></div>
+                                <div class="col-lg-8 col-md-7 col-md-pull-1 col-xs-12 msg_subject"><div class="row">Our New Campaign - <i>Duis aute irure dolor in reprehenderit pariatur...</i></div></div>
+                                <div class="clear"></div>
+                            </div>
+                            
+                            <button type="button" class="btn-block see_all"> See All Campaign</button>
+                        </div>
                        
                         <div class="clear"></div>
                     </div>

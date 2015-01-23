@@ -21,7 +21,7 @@
   .mixin();
 }
 .btn-blue{
-  background: @second_color;
+  background-color: @second_color;
   .mixin(@padding: 10px 20px);
 }
 .btn-green{
@@ -298,16 +298,16 @@
             background-color: transparent;
         }
     }
+
+    .btn_right {
+        float: right;
+    }
+}
     .btn_grey {
         background-color: #60686e;
         color: #fff;
         &:hover { color: #fff; }
     }
-    .btn_right {
-        float: right;
-    }
-}
-
 .add_new_campaign {
     padding-right: 30px;
     .half_inputs {

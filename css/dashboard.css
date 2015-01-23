@@ -715,20 +715,251 @@ button.btn_guest {
   padding: 10px;
   border-bottom: 1px solid #ecedef;
 }
-.message_toolbar button {
+.message_toolbar span {
+  float: right;
+  padding: 10px 0px;
+}
+.message_toolbar .mess_button {
   font-weight: 700;
   font-size: 14px;
   font-style: italic;
+  margin-right: 10px;
   color: #5c666e;
   text-transform: uppercase;
   background-color: #fff;
   border: 1px solid #e2e5e8;
-  padding: 10px 20px 10px 30px;
+  padding: 10px 20px 10px 35px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
 }
-.message_toolbar button.mess_moveto {
-  background-image: url(../images/dashboard/dash_moveto.png);
+.message_toolbar .mess_button.mess_moveto {
+  background-image: url(../images/dashboard/move_to.png);
 }
-.message_toolbar button.mess_delete {
-  background-image: url(../images/dashboard/dash_delete.png);
+.message_toolbar .mess_button.mess_delete {
+  background-image: url(../images/dashboard/delete.png);
+}
+.message_toolbar h2 {
+  font-size: 24px;
+  color: #2f3336;
+  float: left;
+  margin: 10px 0px 13px;
+}
+.message_toolbar .btn_add_site {
+  float: right;
+  border: none;
+  padding: 7px 13px;
+  border-radius: 5px;
+  margin-top: 7px;
+  outline: none;
+}
+.compose {
+  background-image: url(../images/dashboard/compose.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 35px !important;
+  margin: 0 auto;
+}
+.inbox {
+  padding: 10px;
+}
+.inbox .inbox_item {
+  border: 1px solid #e2e7ea;
+  background-color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+.inbox .inbox_item input[type=image] {
+  margin-top: 2px;
+  float: right;
+  margin-right: 25%;
+  outline: none;
+}
+@media (max-width: 991px) {
+  .inbox .inbox_item input[type=image] {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: -3px;
+    margin-left: 10px;
+  }
+}
+.inbox .inbox_item .checkbox-label {
+  margin-bottom: 1px;
+}
+.inbox .inbox_item .msg_sender {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2f3336;
+}
+.inbox .inbox_item .msg_subject {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2f3336;
+}
+.inbox .inbox_item .msg_subject i {
+  font-weight: 500;
+  color: #60686d;
+}
+.inbox .inbox_item .msg_time {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+  color: #60686d;
+}
+.inbox .see_all {
+  font-weight: 700;
+  font-size: 14px;
+  font-style: italic;
+  margin-right: 10px;
+  color: #5c666e;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 1px solid #e2e5e8;
+  padding: 10px 0px;
+  outline: none;
+}
+/*DASHBOARD LIST OF SITES*/
+.list_of_sites {
+  padding: 0px 15px;
+}
+.list_of_sites .t_head .t_td,
+.list_of_sites .t_row .t_td {
+  border-bottom: 1px solid #ecedef;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 767px) {
+  .list_of_sites .t_head .t_td,
+  .list_of_sites .t_row .t_td {
+    border-bottom: none;
+  }
+}
+@media (max-width: 767px) {
+  .list_of_sites .t_head {
+    display: none;
+  }
+}
+.list_of_sites .t_head .t_td {
+  height: 55px;
+  color: #666666;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+@media (max-width: 767px) {
+  .list_of_sites .t_row {
+    margin-bottom: 20px;
+  }
+}
+.list_of_sites .t_row .t_td {
+  height: 65px;
+  color: #333333;
+  font-size: 16px;
+  padding: 21px 15px;
+}
+.list_of_sites .t_row .t_td:nth-last-child(1) {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .list_of_sites .t_row .t_td:nth-last-child(1) {
+    text-align: center;
+    height: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .list_of_sites .t_row .t_td {
+    height: 40px;
+    padding: 10px 15px;
+  }
+}
+.list_of_sites .t_row .t_td .t_status.succes {
+  color: #3caf42;
+}
+.list_of_sites .t_row .t_td .t_status.error {
+  color: #ff3333;
+}
+.list_of_sites .t_row .t_td .t_btn {
+  border: none;
+  padding: 7px 13px;
+  border-radius: 5px;
+  outline: none;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: 'Exo 2', sans-serif;
+}
+@media (max-width: 767px) {
+  .list_of_sites .t_row .t_td .t_btn {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+  }
+  .list_of_sites .t_row .t_td .t_btn:nth-last-child(1) {
+    margin-right: 0%;
+    margin-left: 5%;
+  }
+}
+/*CAMPAIGNS PAGE*/
+.campaigns_page .row {
+  margin-right: 0px !important;
+}
+.campaigns_page .last_campaign_item {
+  padding: 0px 15px !important;
+}
+.campaigns_page .last_campaign_item .campaign_item_r {
+  padding: 15px 0px !important;
+}
+@media (min-width: 992px) {
+  .campaigns_page .last_campaign_item .campaign_item_r {
+    border-right: 1px solid #e2e7ea;
+  }
+}
+.campaigns_page .last_campaign_item .campaign_item_l {
+  position: relative;
+  height: 190px;
+}
+.campaigns_page .last_campaign_item .campaign_item_l .row {
+  margin-right: -15px !important;
+  margin-left: 0px !important;
+}
+.campaigns_page .last_campaign_item .campaign_item_l .row span {
+  display: block;
+  width: 100%;
+  color: #2f3336;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.campaigns_page .last_campaign_item .campaign_item_l .row .campaign_buttons {
+  border-top: 1px solid #e2e7ea;
+  position: absolute;
+  height: 40px;
+  bottom: 14px;
+  padding-top: 10px;
+}
+.campaigns_page .last_campaign_item .campaign_item_l .row .campaign_buttons a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.campaigns_page .last_campaign_item .campaign_item_l .row .campaign_buttons a i {
+  margin-right: 5px;
+}
+.campaigns_page .last_campaign_item .campaign_item_l .row .campaign_buttons a.stop {
+  color: #5c666e;
+}
+.campaigns_page .last_campaign_item .campaign_item_l .row .campaign_buttons a.edit {
+  color: #3caf42;
+}
+@media (min-width: 1200px) {
+  .campaigns_page .last_campaign_item .campaign_item_l .row .campaign_buttons a.edit {
+    margin: 0px 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .campaigns_page .last_campaign_item .campaign_item_l .row .campaign_buttons a.edit {
+    margin: 0px 10px;
+  }
+}
+.campaigns_page .last_campaign_item .campaign_item_l .row .campaign_buttons a.delete {
+  color: #eb5a5a;
 }
 /*# sourceMappingURL=dashboard.css.map */

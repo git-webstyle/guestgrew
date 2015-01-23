@@ -155,7 +155,7 @@ function main_custom() {
 
 }
 
-// dasboard 
+// dasboard
 function dash_custom() {
     this.global = new Array();
 
@@ -313,13 +313,13 @@ $(document).ready(function() {
         custom.close_mobile_menu(type);
     });
     /* ---FRONTEND--- */
-    
-    
+
+
     $('.cat_1_menu li').click(function() {
         var id = $(this).data('idtoopen');
         dash.open_dash_menu(id);
     });
-    
+
     // Dashboard tabs change
     $('.open_dashtab').click(function(){
         var id = $(this).data('tab');
