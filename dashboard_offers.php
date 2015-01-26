@@ -142,104 +142,92 @@
                             <div class="clear"></div>
                         </div>
                         
-                        <div class="col-xs-12 left_side campaigns_page">
+                        <div class="col-xs-12 left_side  offers_page">
                             <div class="row">                               
-                                <div class="last_campaign" >
-                     
-                                    <div class="last_campaign_item dash_block">
-                                        <div class="col-md-8 campaign_item_r">
-                                        <div class="row col">
-                                            <div class="col-sm-4">
-                                                <div class="row">
-                                                    <img src="images/blog_big.jpg">
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-8">
-                                                <span>Author: <b>Robert Norton</b></span>
-                                                <span>Title: <b>Restoration of historic books</b></span>
-                                                <span>Short Description</span>
-                                                <p>Duis aute irure dolor in reprehenderit pariatur velites cillum dolore.</p>
-
-                                                <div class="progress_container">
-                                                        <p class="days">6 days left</p>
-                                                        <div class='progres p_grey'>
-                                                            <div class="curr_progres" style="width: 60%;"></div>
-                                                        </div> 
-                                                </div>
-                                                <div class="soc_reach"><span><b>844,900</b> Social Reach</span></div>
+                                <div class="offers" >
+                                   
+                                    <div class="offers_item dash_block">
+                                        <div class="col-md-8 offers_item_l">
+                                        <div class="row col">                                           
+                                            <div class="col-xs-12">
+                                                <p><b>About the  Website</b> Description: <span>Duis aute irure dolor in reprehenderit pariatur velites cillum dolore consect voluptate.</span></p>
+                                                <p>Link to: <b><a href="www.robertnorton.com">www.robertnorton.com</a></b></p>
+                                                <p>Offer From: <b>Robert Norton</b></p>                                              
                                                 <div class="clear"></div>
                                             </div>
                                             
                                         </div>
                                             
                                         </div>
-                                        <div class="col-md-4 campaign_item_l">
+                                        <div class="col-md-4 offers_item_r">
                                             <div class="row">
-                                                <div class="campaign_item_l_tetx">
-                                                <span>Number of Supporters: <b>150</b></span>
-                                                <span>User Score: <b>520</b></span>
-                                                <span>Buget: <b>$5452</b></span>
+                                                <div class="offers_item_r_tetx">
+                                                    <span>Number of words: <b>150</b></span>
+                                                    <span>Price: <b>$520</b></span>                                                
                                                 </div>
-                                                <div class="campaign_buttons">
-                                                    <a href="#" class="stop"><i class="fa fa-square-o "> </i>Stop</a>
-                                                    <a href="#" class="edit"><i class="fa fa-pencil "></i>Edit</a>
-                                                    <a href="#" class="delete"><i class="fa fa-trash-o "></i>Delete</a>
+                                                <div class="offers_buttons">                                                  
+                                                    <a href="#" class="publish">Publish Now</a>
+                                                    <a href="#" class="refuse">Refuse</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="clear"></div>
                                     </div>
-                                    <div class="last_campaign_item dash_block">
-                                        <div class="col-md-8 campaign_item_r">
-                                        <div class="row col">
-                                            <div class="col-sm-4">
-                                                <div class="row">
-                                                    <img src="images/blog_big.jpg">
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-8">
-                                                <span>Author: <b>Robert Norton</b></span>
-                                                <span>Title: <b>Restoration of historic books</b></span>
-                                                <span>Short Description</span>
-                                                <p>Duis aute irure dolor in reprehenderit pariatur velites cillum dolore.</p>
-
-                                                <div class="progress_container">
-                                                  
-                                                        <p class="days">6 days left</p>
-                                                        <div class='progres p_grey'>
-                                                            <div class="curr_progres" style="width: 60%;"></div>
-                                                        </div> 
-                                                    
-                                                </div>
-                                                <div class="soc_reach">
-                                                    
-                                                        <span><b>844,900</b> Social Reach</span>
-                                                   
-                                                </div>
-
-
+                                    <div class="offers_item dash_block">
+                                        <div class="col-md-8 offers_item_l">
+                                        <div class="row col">                                           
+                                            <div class="col-xs-12">
+                                                <p><b>About the  Website</b> Description: <span>Duis aute irure dolor in reprehenderit pariatur velites cillum dolore consect voluptate.</span></p>
+                                                <p>Link to: <b><a href="www.robertnorton.com">www.robertnorton.com</a></b></p>
+                                                <p>Offer From: <b>Robert Norton</b></p>                                              
                                                 <div class="clear"></div>
                                             </div>
                                             
                                         </div>
                                             
                                         </div>
-                                        <div class="col-md-4 campaign_item_l">
+                                        <div class="col-md-4 offers_item_r">
                                             <div class="row">
-                                                <div class="campaign_item_l_tetx">
-                                                <span>Number of Supporters: <b>150</b></span>
-                                                <span>User Score: <b>520</b></span>
-                                                <span>Buget: <b>$5452</b></span>
+                                                <div class="offers_item_r_tetx">
+                                                    <span>Number of words: <b>150</b></span>
+                                                    <span>Price: <b>$520</b></span>                                                
                                                 </div>
-                                                <div class="campaign_buttons">
-                                                    <a href="#" class="stop"><i class="fa fa-square-o "> </i>Stop</a>
-                                                    <a href="#" class="edit"><i class="fa fa-pencil "></i>Edit</a>
-                                                    <a href="#" class="delete"><i class="fa fa-trash-o "></i>Delete</a>
+                                                <div class="offers_buttons">                                                  
+                                                    <a href="#" class="publish">Publish Now</a>
+                                                    <a href="#" class="refuse">Refuse</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="clear"></div>
                                     </div>
+                                    <div class="offers_item dash_block">
+                                        <div class="col-md-8 offers_item_l">
+                                        <div class="row col">                                           
+                                            <div class="col-xs-12">
+                                                <p><b>About the  Website</b> Description: <span>Duis aute irure dolor in reprehenderit pariatur velites cillum dolore consect voluptate.</span></p>
+                                                <p>Link to: <b><a href="www.robertnorton.com">www.robertnorton.com</a></b></p>
+                                                <p>Offer From: <b>Robert Norton</b></p>                                              
+                                                <div class="clear"></div>
+                                            </div>
+                                            
+                                        </div>
+                                            
+                                        </div>
+                                        <div class="col-md-4 offers_item_r">
+                                            <div class="row">
+                                                <div class="offers_item_r_tetx">
+                                                    <span>Number of words: <b>150</b></span>
+                                                    <span>Price: <b>$520</b></span>                                                
+                                                </div>
+                                                <div class="offers_buttons">                                                  
+                                                    <a href="#" class="publish">Publish Now</a>
+                                                    <a href="#" class="refuse">Refuse</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                  
                                 </div>
                             </div>                               
                         </div>

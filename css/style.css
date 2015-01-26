@@ -2238,6 +2238,34 @@ End Header Page
   font-size: 14px;
   color: #2f3336;
 }
+.share h3 {
+  margin-top: 0px;
+}
+.share input {
+  width: 100%;
+  border: 1px solid #c7cbcd;
+  height: 50px;
+  color: #606060;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  padding: 1px 15px;
+}
+.share button {
+  display: block;
+  margin: 0 auto;
+  background-color: #0099f1 !important;
+  display: block !important;
+  padding: 10px 20px !important;
+  color: #fff !important;
+  border: none !important;
+  font-style: italic !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
+}
 .supporters {
   color: #2f3336;
 }

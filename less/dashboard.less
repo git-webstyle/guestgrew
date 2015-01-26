@@ -855,7 +855,6 @@ button.btn_guest{
 
 
 /*CAMPAIGNS PAGE*/
-
 .campaigns_page {
 
     .row {
@@ -874,10 +873,17 @@ button.btn_guest{
         .campaign_item_l {
             position: relative;
             height: 190px;
+            @media (max-width:991px) {
+                height: 60px;
+            }
             .row {
                 margin-right: -15px !important;
                 margin-left: 0px !important;
-                span {
+                .campaign_item_l_tetx {
+                    @media (max-width:991px) {
+                        display: none;
+                    }
+                    span {
                     display: block;
                     width: 100%;
                     color: #2f3336;
@@ -885,12 +891,19 @@ button.btn_guest{
                     line-height: 25px;
                     margin-top: 10px;
                 }
+                }
+                
                 .campaign_buttons {
                     border-top: 1px solid #e2e7ea;
                     position:absolute;
                     height: 40px;
                     bottom: 14px;
                     padding-top: 10px;
+                    @media (max-width:991px) {
+                        width: 100%;
+                        margin-left: -15px;
+                        text-align: center;
+                    }
                     a {
                         font-size: 16px;
                         font-weight: 600;
@@ -909,9 +922,103 @@ button.btn_guest{
                             @media (max-width: 1199px) {
                                 margin: 0px 10px;
                             }
+                            @media (max-width: 991px) {
+                                margin: 0px 19%;
+                            }
                         }
                         &.delete {
                             color: #eb5a5a;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+/* OFFERS PAGE*/
+.offers_page {
+
+    .row {
+        margin-right: 0px !important;
+    }
+    .offers_item {
+        padding: 0px 15px !important;
+        .offers_item_l
+        {
+            padding: 15px 0px !important;
+            
+            @media (min-width: 992px) {
+                border-right: 1px solid #e2e7ea;
+            }
+            p {
+                font-size: 16px;
+                color: @base_color;
+                a {
+                    color: @base_color;
+                }
+                span {
+                    color: #60686d;
+                    font-style: italic;
+                    font-size: 14px;
+                }
+            }
+        }
+        .offers_item_r {
+            position: relative;
+            height: 148px;
+            @media (max-width:991px) {
+                height: 60px;
+            }
+            .row {
+                margin-right: -15px !important;
+                margin-left: 0px !important;
+                .offers_item_r_tetx {
+                    @media (max-width:991px) {
+                        display: none;
+                    }
+                    span {
+                        display: block;
+                        width: 100%;
+                        color: #2f3336;
+                        font-size: 16px;
+                        line-height: 25px;
+                        margin-top: 10px;
+                    }
+                    
+                }
+                
+                .offers_buttons {
+                    border-top: 1px solid #e2e7ea;
+                    position: absolute;
+                    height: 40px;
+                    bottom: 14px;
+                    width: 100%;
+                    margin-left: -7px;
+                    padding: 15px 7px;
+                    @media (max-width:991px) {
+                        width: 100%;
+                        margin-left: -15px;
+                        text-align: center;
+                    }
+                    a {
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-decoration: none;
+                        background-repeat: no-repeat;
+                        background-position: left center;
+                        padding-left: 20px;
+                        &.publish {
+                            background-image: url(../images/dashboard/publish_icon.png);
+                            color: @green_color;
+                            float: left;
+                        }
+                        &.refuse {
+                            color: #eb5a5a;
+                            background-image: url(../images/dashboard/remove_red.png);
+                            float: right;
                         }
                     }
 

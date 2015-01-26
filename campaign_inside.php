@@ -154,6 +154,11 @@
                                 </div>
                                 
                             </div>
+                            <div class="block share">
+                                <h3>Share Embed:</h3>
+                                <input type="text" value="<iframe src='http://protv.md/embed/814431.html' frameborder='0' width='600' height='440'></iframe>">
+                                <button type="button" class="btn-blue">Copy link</button>
+                            </div>
                             
                             
                         </div>
